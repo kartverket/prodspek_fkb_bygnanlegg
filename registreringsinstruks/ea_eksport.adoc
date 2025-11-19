@@ -36,12 +36,6 @@ image::figurer/bru_skisse.png[link=figurer/bru_skisse.png, Alt="Figuren viser hv
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant brukonstruksjon
- 
-|FKB høydereferanse
-|Topp kant brukonstruksjon. Oftest vil dette være i samme nivå som vegbanen/sporet
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -53,6 +47,12 @@ image::figurer/bru_skisse.png[link=figurer/bru_skisse.png, Alt="Figuren viser hv
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant brukonstruksjon
+ 
+|FKB høydereferanse
+|Topp kant brukonstruksjon. Oftest vil dette være i samme nivå som vegbanen/sporet
  
 |===
  
@@ -220,12 +220,6 @@ Det er kun &#248;verste detaljer som f.eks. brut&#229;rn og vaiere som registrer
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant/senterlinje for brutårn. Senterlinje eller avgrensning av bæreelement.
- 
-|FKB høydereferanse
-|Topp objekt
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -237,6 +231,12 @@ Det er kun &#248;verste detaljer som f.eks. brut&#229;rn og vaiere som registrer
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant/senterlinje for brutårn. Senterlinje eller avgrensning av bæreelement.
+ 
+|FKB høydereferanse
+|Topp objekt
  
 |===
  
@@ -376,12 +376,6 @@ image::figurer/kulvert.png[link=figurer/kulvert.png, Alt="Eksempel på registrer
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ende/hjørne av gjennomløp
- 
-|FKB høydereferanse
-|Bunn gjennomløp
- 
 |FKB-A
 |Opsjonell registrering
  
@@ -393,6 +387,12 @@ image::figurer/kulvert.png[link=figurer/kulvert.png, Alt="Eksempel på registrer
  
 |FKB-D
 |Registreres ikke
+ 
+|FKB grunnrissreferanse
+|Ende/hjørne av gjennomløp
+ 
+|FKB høydereferanse
+|Bunn gjennomløp
  
 |===
  
@@ -522,7 +522,9 @@ av vegen/jernbanen kan stikkrenna registreres bare p&#229; ene siden
 (kort linje). Stikkrenne skal ikke registreres som et punkt.
 
 Ved fotogrammetrisk registrering er kun endene av stikkrenna 
-synlige. Forl&#248;pet under vegen/jernbanen er ukjent. H&#248;ydereferansen kan v&#230;re usikker
+synlige. Forl&#248;pet under vegen/jernbanen er ukjent. H&#248;ydereferansen kan v&#230;re usikker.
+
+F&#248;ringene om fullstendighet i FKB-Vann gjelder uavhengig av om det er bestilt opsjoner Stikkrenne og/eller Kulvert i FKB-BygnAnlegg. Dette inneb&#230;rer at vannveger under bakken i stikkrenner og kulverter skal registreres b&#229;de i FKB-Vann med medium U, og i FKB-BygnAnlegg n&#229;r disse opsjonene er bestilt. Dette for at vannettverket skal bli registrert sammenhengende i FKB-Vann.
  
  
 '''
@@ -535,12 +537,6 @@ image::figurer/stikkrenne.png[link=figurer/stikkrenne.png, Alt="Eksempel på reg
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Midt ende av innløp og utløp
- 
-|FKB høydereferanse
-|Bunn stikkrenne
- 
 |FKB-A
 |Opsjonell registrering
  
@@ -552,6 +548,12 @@ image::figurer/stikkrenne.png[link=figurer/stikkrenne.png, Alt="Eksempel på reg
  
 |FKB-D
 |Registreres ikke
+ 
+|FKB grunnrissreferanse
+|Midt ende av innløp og utløp
+ 
+|FKB høydereferanse
+|Bunn stikkrenne
  
 |===
  
@@ -682,12 +684,6 @@ image::figurer/tunnelportal.png[link=figurer/tunnelportal.png, Alt="Eksempl på 
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant tunnelportal
- 
-|FKB høydereferanse
-|Topp kant tunnelportal
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -699,6 +695,12 @@ image::figurer/tunnelportal.png[link=figurer/tunnelportal.png, Alt="Eksempl på 
  
 |FKB-D
 |Registreres ikke
+ 
+|FKB grunnrissreferanse
+|Ytterkant tunnelportal
+ 
+|FKB høydereferanse
+|Topp kant tunnelportal
  
 |===
  
@@ -831,12 +833,6 @@ Det presiseres at mobile avfallsbeholdere/s&#248;ppelkasser ikke skal registrere
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Senter beholder
- 
-|FKB høydereferanse
-|Topp beholder
- 
 |FKB-A
 |Opsjonell registrering
  
@@ -848,6 +844,12 @@ Det presiseres at mobile avfallsbeholdere/s&#248;ppelkasser ikke skal registrere
  
 |FKB-D
 |Registreres ikke
+ 
+|FKB grunnrissreferanse
+|Senter beholder
+ 
+|FKB høydereferanse
+|Topp beholder
  
 |===
  
@@ -991,12 +993,6 @@ Registreres som punkt ved fotogrammetrisk registrering dersom ikke annet er avta
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Senter
- 
-|FKB høydereferanse
-|Terrengnivå (HREF FOT) eller ev. topp kant av mur rundt brønn (HREF TOP)
- 
 |FKB-A
 |Opsjonell registrering
  
@@ -1008,6 +1004,12 @@ Registreres som punkt ved fotogrammetrisk registrering dersom ikke annet er avta
  
 |FKB-D
 |Registreres ikke
+ 
+|FKB grunnrissreferanse
+|Senter
+ 
+|FKB høydereferanse
+|Terrengnivå (HREF FOT) eller ev. topp kant av mur rundt brønn (HREF TOP)
  
 |===
  
@@ -1137,6 +1139,18 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
 ==== Føringer
 [cols="h,2"]
 |===
+|FKB-A
+|Påkrevd registrering
+ 
+|FKB-B
+|Påkrevd registrering
+ 
+|FKB-C
+|Påkrevd registrering
+ 
+|FKB-D
+|Påkrevd registrering
+ 
 |FKB grunnrissreferanse
 |Senter
  
@@ -1154,18 +1168,6 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
  
 |FKB-D minstestørrelse
 |Flaggstenger høyere enn 15m
- 
-|FKB-A
-|Påkrevd registrering
- 
-|FKB-B
-|Påkrevd registrering
- 
-|FKB-C
-|Påkrevd registrering
- 
-|FKB-D
-|Påkrevd registrering
  
 |===
  
@@ -1313,6 +1315,18 @@ image::figurer/fundament.png[link=figurer/fundament.png, Alt="Eksempel på regis
 ==== Føringer
 [cols="h,2"]
 |===
+|FKB-A
+|Påkrevd registrering
+ 
+|FKB-B
+|Påkrevd registrering
+ 
+|FKB-C
+|Påkrevd registrering
+ 
+|FKB-D
+|Påkrevd registrering
+ 
 |FKB grunnrissreferanse
 |Ytterkant fundament
  
@@ -1330,18 +1344,6 @@ image::figurer/fundament.png[link=figurer/fundament.png, Alt="Eksempel på regis
  
 |FKB-D minstestørrelse
 |Fundamenter med areal større enn 20m2
- 
-|FKB-A
-|Påkrevd registrering
- 
-|FKB-B
-|Påkrevd registrering
- 
-|FKB-C
-|Påkrevd registrering
- 
-|FKB-D
-|Påkrevd registrering
  
 |===
  
@@ -1481,6 +1483,18 @@ For piper med skr&#229; vegger, registreres "Kant ved bakken" som BeskrivendeHje
 ==== Føringer
 [cols="h,2"]
 |===
+|FKB-A
+|Påkrevd registrering
+ 
+|FKB-B
+|Påkrevd registrering
+ 
+|FKB-C
+|Påkrevd registrering
+ 
+|FKB-D
+|Påkrevd registrering
+ 
 |FKB grunnrissreferanse
 |Topp ytterkant pipe (senter pipe ved punktgeometri)
  
@@ -1498,18 +1512,6 @@ For piper med skr&#229; vegger, registreres "Kant ved bakken" som BeskrivendeHje
  
 |FKB-D minstestørrelse
 |Piper høyere enn 10m
- 
-|FKB-A
-|Påkrevd registrering
- 
-|FKB-B
-|Påkrevd registrering
- 
-|FKB-C
-|Påkrevd registrering
- 
-|FKB-D
-|Påkrevd registrering
  
 |===
  
@@ -1665,6 +1667,18 @@ image::figurer/tank_flere.png[link=figurer/tank_flere.png, Alt="Når det er fler
 ==== Føringer
 [cols="h,2"]
 |===
+|FKB-A
+|Påkrevd registrering
+ 
+|FKB-B
+|Påkrevd registrering
+ 
+|FKB-C
+|Påkrevd registrering
+ 
+|FKB-D
+|Påkrevd registrering
+ 
 |FKB grunnrissreferanse
 |Ytterkant av tank (største omkrets)
  
@@ -1674,18 +1688,6 @@ image::figurer/tank_flere.png[link=figurer/tank_flere.png, Alt="Når det er fler
 |FKB-A minstestørrelse
 |Areal større enn 6m2
  
-|FKB-A
-|Påkrevd registrering
- 
-|FKB-B
-|Påkrevd registrering
- 
-|FKB-C
-|Påkrevd registrering
- 
-|FKB-D
-|Påkrevd registrering
- 
 |===
  
  
@@ -1693,179 +1695,6 @@ image::figurer/tank_flere.png[link=figurer/tank_flere.png, Alt="Når det er fler
  
 [discrete]
 ==== Egenskapstabell for objekttype: Tank
-[cols="20,20,20,10", options="header"]
-|===
-|*Navn:* 
-|*Type:* 
-|*SOSI_navn:* 
-|*Mult.:* 
- 
-|identifikasjon
-|«dataType» Identifikasjon
-|..IDENT
-|[0..1]
- 
-|identifikasjon.lokalId
-|CharacterString
-|...LOKALID
-|[1..1]
- 
-|identifikasjon.navnerom
-|CharacterString
-|...NAVNEROM
-|[1..1]
- 
-|identifikasjon.versjonId
-|CharacterString
-|...VERSJONID
-|[0..1]
- 
-|oppdateringsdato
-|DateTime
-|..OPPDATERINGSDATO
-|[0..1]
- 
-|sluttdato
-|DateTime
-|..SLUTTDATO
-|[0..1]
- 
-|datafangstdato
-|Date
-|..DATAFANGSTDATO
-|[1..1]
- 
-|verifiseringsdato
-|Date
-|..VERIFISERINGSDATO
-|[0..1]
- 
-|registreringsversjon
-| «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/registreringsversjon[Registreringsversjon, window = _blank]
-|..REGISTRERINGSVERSJON
-|[0..1]
- 
-|informasjon
-|CharacterString
-|..INFORMASJON
-|[0..1]
- 
-|kvalitet
-|«dataType» Posisjonskvalitet
-|..KVALITET
-|[1..1]
- 
-|kvalitet.datafangstmetode
-| «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/datafangstmetode[Datafangstmetode, window = _blank]
-|...DATAFANGSTMETODE
-|[1..1]
- 
-|kvalitet.nøyaktighet
-|Integer
-|...NØYAKTIGHET
-|[0..1]
- 
-|kvalitet.synbarhet
-| «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/synbarhet[Synbarhet, window = _blank]
-|...SYNBARHET
-|[0..1]
- 
-|kvalitet.datafangstmetodeHøyde
-| «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/datafangstmetode[Datafangstmetode, window = _blank]
-|...DATAFANGSTMETODEHØYDE
-|[0..1]
- 
-|kvalitet.nøyaktighetHøyde
-|Integer
-|...H-NØYAKTIGHET
-|[0..1]
- 
-|nrlpeker
-|URI
-|..NRLPEKER
-|[0..1]
- 
-|posisjon
-|GM_Point
-|.PUNKT
-|[0..1]
- 
-|område
-|GM_Surface
-|.FLATE
-|[0..1]
- 
-|medium
-| «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/medium[Medium, window = _blank]
-|..MEDIUM
-|[1..1]
- 
-|===
- 
-<<<
-'''
- 
-[[tårn]]
-=== Objekttype: Tårn
-*Definisjon fra FKB produktspesifikasjon*: h&#248;y bygningsmessig konstruksjon hvor h&#248;yden er stor i forhold til bygningens areal i grunnplanet
-Merknad: Omfatter alle t&#229;rn med unntak av de som er registrert i matrikkelen og de som har en mer spesifisert beskrivelse, som f.eks. tank. 
-Eksempel: M&#229;let&#229;rn og stupet&#229;rn
- 
- 
-.Illustrasjon fra produktspesifikasjon av Tårn
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/figurer/objtype_tarn.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/figurer/objtype_tarn.png, Alt="Illustrasjon fra produktspesifikasjon: Tårn"]
- 
- 
-[discrete]
-==== Tilleggsinformasjon for fotogrammetrisk registrering
-Omfatter alle t&#229;rn med unntak av de t&#229;rn som har en mer spesifisert beskrivelse, som f.eks. Tank. Eksempel p&#229; t&#229;rn er m&#229;let&#229;rn, stupet&#229;rn og t&#229;rn for telekommunikasjon. Vannt&#229;rn kodes som Tank.
-
-For t&#229;rn med loddrette vegger, registreres "Ytterkant av t&#229;rn/Topp ytterkant t&#229;rn". For t&#229;rn med skr&#229; vegger, registreres i tillegg registreres "Kant ved bakken" som BeskrivendeHjelpelinjeAnlegg.  
-
-Dersom t&#229;rnet st&#229;r p&#229; markerte bein, kan disse registreres som fundament.
- 
- 
-[discrete]
-==== Føringer
-[cols="h,2"]
-|===
-|FKB grunnrissreferanse
-|Topp ytterkant tårn
- 
-|FKB høydereferanse
-|Topp ytterkant tårn
- 
-|FKB-A minstestørrelse
-|Høyde større enn 5m
- 
-|FKB-B minstestørrelse
-|Høyde større enn 5m
- 
-|FKB-C minstestørrelse
-|Høyde større enn 10m
- 
-|FKB-D minstestørrelse
-|Høyde større enn 10m
- 
-|FKB-A
-|Påkrevd registrering
- 
-|FKB-B
-|Påkrevd registrering
- 
-|FKB-C
-|Påkrevd registrering
- 
-|FKB-D
-|Påkrevd registrering
- 
-|===
- 
- 
-<<<
- 
-[discrete]
-==== Egenskapstabell for objekttype: Tårn
 [cols="20,20,20,10", options="header"]
 |===
 |*Navn:* 
@@ -2006,18 +1835,6 @@ image::figurer/trapp.png[link=figurer/trapp.png, Alt="Eksempel på trapp som er 
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant av trapp
- 
-|FKB høydereferanse
-|Ytterkant av trapp (skråplan)
- 
-|FKB-A minstestørrelse
-|Alle synlige trapper
- 
-|FKB-B minstestørrelse
-|Trapper med areal større enn 6m2
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -2029,6 +1846,18 @@ image::figurer/trapp.png[link=figurer/trapp.png, Alt="Eksempel på trapp som er 
  
 |FKB-D
 |Registreres ikke
+ 
+|FKB grunnrissreferanse
+|Ytterkant av trapp
+ 
+|FKB høydereferanse
+|Ytterkant av trapp (skråplan)
+ 
+|FKB-A minstestørrelse
+|Alle synlige trapper
+ 
+|FKB-B minstestørrelse
+|Trapper med areal større enn 6m2
  
 |===
  
@@ -2139,6 +1968,179 @@ image::figurer/trapp.png[link=figurer/trapp.png, Alt="Eksempel på trapp som er 
 <<<
 '''
  
+[[tårn]]
+=== Objekttype: Tårn
+*Definisjon fra FKB produktspesifikasjon*: h&#248;y bygningsmessig konstruksjon hvor h&#248;yden er stor i forhold til bygningens areal i grunnplanet
+Merknad: Omfatter alle t&#229;rn med unntak av de som er registrert i matrikkelen og de som har en mer spesifisert beskrivelse, som f.eks. tank. 
+Eksempel: M&#229;let&#229;rn og stupet&#229;rn
+ 
+ 
+.Illustrasjon fra produktspesifikasjon av Tårn
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/figurer/objtype_tarn.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/figurer/objtype_tarn.png, Alt="Illustrasjon fra produktspesifikasjon: Tårn"]
+ 
+ 
+[discrete]
+==== Tilleggsinformasjon for fotogrammetrisk registrering
+Omfatter alle t&#229;rn med unntak av de t&#229;rn som har en mer spesifisert beskrivelse, som f.eks. Tank. Eksempel p&#229; t&#229;rn er m&#229;let&#229;rn, stupet&#229;rn og t&#229;rn for telekommunikasjon. Vannt&#229;rn kodes som Tank.
+
+For t&#229;rn med loddrette vegger, registreres "Ytterkant av t&#229;rn/Topp ytterkant t&#229;rn". For t&#229;rn med skr&#229; vegger, registreres i tillegg registreres "Kant ved bakken" som BeskrivendeHjelpelinjeAnlegg.  
+
+Dersom t&#229;rnet st&#229;r p&#229; markerte bein, kan disse registreres som fundament.
+ 
+ 
+[discrete]
+==== Føringer
+[cols="h,2"]
+|===
+|FKB-A
+|Påkrevd registrering
+ 
+|FKB-B
+|Påkrevd registrering
+ 
+|FKB-C
+|Påkrevd registrering
+ 
+|FKB-D
+|Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Topp ytterkant tårn
+ 
+|FKB høydereferanse
+|Topp ytterkant tårn
+ 
+|FKB-A minstestørrelse
+|Høyde større enn 5m
+ 
+|FKB-B minstestørrelse
+|Høyde større enn 5m
+ 
+|FKB-C minstestørrelse
+|Høyde større enn 10m
+ 
+|FKB-D minstestørrelse
+|Høyde større enn 10m
+ 
+|===
+ 
+ 
+<<<
+ 
+[discrete]
+==== Egenskapstabell for objekttype: Tårn
+[cols="20,20,20,10", options="header"]
+|===
+|*Navn:* 
+|*Type:* 
+|*SOSI_navn:* 
+|*Mult.:* 
+ 
+|identifikasjon
+|«dataType» Identifikasjon
+|..IDENT
+|[0..1]
+ 
+|identifikasjon.lokalId
+|CharacterString
+|...LOKALID
+|[1..1]
+ 
+|identifikasjon.navnerom
+|CharacterString
+|...NAVNEROM
+|[1..1]
+ 
+|identifikasjon.versjonId
+|CharacterString
+|...VERSJONID
+|[0..1]
+ 
+|oppdateringsdato
+|DateTime
+|..OPPDATERINGSDATO
+|[0..1]
+ 
+|sluttdato
+|DateTime
+|..SLUTTDATO
+|[0..1]
+ 
+|datafangstdato
+|Date
+|..DATAFANGSTDATO
+|[1..1]
+ 
+|verifiseringsdato
+|Date
+|..VERIFISERINGSDATO
+|[0..1]
+ 
+|registreringsversjon
+| «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/registreringsversjon[Registreringsversjon, window = _blank]
+|..REGISTRERINGSVERSJON
+|[0..1]
+ 
+|informasjon
+|CharacterString
+|..INFORMASJON
+|[0..1]
+ 
+|kvalitet
+|«dataType» Posisjonskvalitet
+|..KVALITET
+|[1..1]
+ 
+|kvalitet.datafangstmetode
+| «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/datafangstmetode[Datafangstmetode, window = _blank]
+|...DATAFANGSTMETODE
+|[1..1]
+ 
+|kvalitet.nøyaktighet
+|Integer
+|...NØYAKTIGHET
+|[0..1]
+ 
+|kvalitet.synbarhet
+| «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/synbarhet[Synbarhet, window = _blank]
+|...SYNBARHET
+|[0..1]
+ 
+|kvalitet.datafangstmetodeHøyde
+| «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/datafangstmetode[Datafangstmetode, window = _blank]
+|...DATAFANGSTMETODEHØYDE
+|[0..1]
+ 
+|kvalitet.nøyaktighetHøyde
+|Integer
+|...H-NØYAKTIGHET
+|[0..1]
+ 
+|nrlpeker
+|URI
+|..NRLPEKER
+|[0..1]
+ 
+|posisjon
+|GM_Point
+|.PUNKT
+|[0..1]
+ 
+|område
+|GM_Surface
+|.FLATE
+|[0..1]
+ 
+|medium
+| «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/medium[Medium, window = _blank]
+|..MEDIUM
+|[1..1]
+ 
+|===
+ 
+<<<
+'''
+ 
 [[gjerde]]
 === Objekttype: Gjerde
 *Definisjon fra FKB produktspesifikasjon*: oppsatt stengsel som hindrer passering. St&#229;r ofte i grensa mellom eiendommer
@@ -2152,13 +2154,40 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
 ==== Tilleggsinformasjon for fotogrammetrisk registrering
 Gjerder i forbindelse med anleggsomr&#229;der og str&#248;mgjerder skal ikke registreres.
 
+Gjerder/rekkverk p&#229; bruer langs jernbane skal registreres, og tildeles medium L. Gjerdetype Annet gjerde brukes.
+
+Reingjerde er godkjent gjerdetype. Normalt skal ikke disse gjerdene registreres fotogrammetrisk.
+
 Fortrinnsvis skal topp gjerde registreres, men der dette er vanskelig kan h&#248;yde for gjerdet registreres ved terrengniv&#229; (HREF FOT). 
+ 
+ 
+'''
+.Illustrasjon av gjerde/rekkverk (blått, MEDIUM L) på bru langs jernbane. Kabelkanal er også illustert i bildet (rødt og rødt stiplet på bru, MEDIUM L)
+image::figurer/gjerde_bru_bane.png[link=figurer/gjerde_bru_bane.png, Alt="Illustrasjon av gjerde/rekkverk (blått, MEDIUM L) på bru langs jernbane. Kabelkanal er også illustert i bildet (rødt og rødt stiplet på bru, MEDIUM L)"]
+ 
+ 
+'''
+.Illustrasjon av Reingjerde
+image::figurer/reingjerde.png[link=figurer/reingjerde.png, Alt="Illustrasjon av Reingjerde"]
+ 
  
  
 [discrete]
 ==== Føringer
 [cols="h,2"]
 |===
+|FKB-A
+|Påkrevd registrering
+ 
+|FKB-B
+|Påkrevd registrering
+ 
+|FKB-C
+|Påkrevd registrering
+ 
+|FKB-D
+|Påkrevd registrering
+ 
 |FKB grunnrissreferanse
 |Senter gjerde
  
@@ -2176,18 +2205,6 @@ Fortrinnsvis skal topp gjerde registreres, men der dette er vanskelig kan h&#248
  
 |FKB-D minstestørrelse
 |Gjerder høyere enn 1m og lengre enn 4m registreres
- 
-|FKB-A
-|Påkrevd registrering
- 
-|FKB-B
-|Påkrevd registrering
- 
-|FKB-C
-|Påkrevd registrering
- 
-|FKB-D
-|Påkrevd registrering
  
 |===
  
@@ -2381,6 +2398,18 @@ image::figurer/murfrittstaende_tank.png[link=figurer/murfrittstaende_tank.png, A
 ==== Føringer
 [cols="h,2"]
 |===
+|FKB-A
+|Påkrevd registrering
+ 
+|FKB-B
+|Påkrevd registrering
+ 
+|FKB-C
+|Påkrevd registrering
+ 
+|FKB-D
+|Påkrevd registrering
+ 
 |FKB grunnrissreferanse
 |Senter mur
  
@@ -2398,18 +2427,6 @@ image::figurer/murfrittstaende_tank.png[link=figurer/murfrittstaende_tank.png, A
  
 |FKB-D minstestørrelse
 |Murer høyere enn 2,5m
- 
-|FKB-A
-|Påkrevd registrering
- 
-|FKB-B
-|Påkrevd registrering
- 
-|FKB-C
-|Påkrevd registrering
- 
-|FKB-D
-|Påkrevd registrering
  
 |===
  
@@ -2542,12 +2559,32 @@ med KVALITET.
 
 Det skal lages nodepunkt til eventuelle tilst&#248;tende 
 situasjonsdetaljer som bygninger og lignende.
+
+Nedsenkt svingskive i forbindelse med jernbane skal registreres. Omrisset av svingskiven registreres som MurLoddrett, mens det dreibare sporomr&#229;det registreres som Bru. Det er ikke n&#248;dvendig &#229; ajourf&#248;re posisjonen til Bru eller Spormidt, ettersom disse vil endre posisjon kontinuerlig under bruk.
+ 
+ 
+'''
+.Illustrasjon av nedsenkt svingskive
+image::figurer/murLoddrett_svingskive_nedsenkt.png[link=figurer/murLoddrett_svingskive_nedsenkt.png, Alt="Illustrasjon av nedsenkt svingskive"]
+ 
  
  
 [discrete]
 ==== Føringer
 [cols="h,2"]
 |===
+|FKB-A
+|Påkrevd registrering
+ 
+|FKB-B
+|Påkrevd registrering
+ 
+|FKB-C
+|Påkrevd registrering
+ 
+|FKB-D
+|Påkrevd registrering
+ 
 |FKB grunnrissreferanse
 |Ytterkant topp av mur
  
@@ -2565,18 +2602,6 @@ situasjonsdetaljer som bygninger og lignende.
  
 |FKB-D minstestørrelse
 |Høyere enn 2,5 m
- 
-|FKB-A
-|Påkrevd registrering
- 
-|FKB-B
-|Påkrevd registrering
- 
-|FKB-C
-|Påkrevd registrering
- 
-|FKB-D
-|Påkrevd registrering
  
 |===
  
@@ -2711,12 +2736,6 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Senter stolpe
- 
-|FKB høydereferanse
-|Topp stolpe
- 
 |FKB-A
 |Opsjonell registrering
  
@@ -2728,6 +2747,12 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
  
 |FKB-D
 |Registreres ikke
+ 
+|FKB grunnrissreferanse
+|Senter stolpe
+ 
+|FKB høydereferanse
+|Topp stolpe
  
 |===
  
@@ -2858,12 +2883,6 @@ Hvis ruinen har brede murer kan det ogs&#229; registreres indre avgrensning av m
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant ruin
- 
-|FKB høydereferanse
-|Topp ytterkant ruin (HREF TOP)
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -2875,6 +2894,12 @@ Hvis ruinen har brede murer kan det ogs&#229; registreres indre avgrensning av m
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant ruin
+ 
+|FKB høydereferanse
+|Topp ytterkant ruin (HREF TOP)
  
 |===
  
@@ -3020,12 +3045,6 @@ image::figurer/skjerm_hoydesprang.png[link=figurer/skjerm_hoydesprang.png, Alt="
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Senter skjerm
- 
-|FKB høydereferanse
-|Topp skjerm
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -3037,6 +3056,12 @@ image::figurer/skjerm_hoydesprang.png[link=figurer/skjerm_hoydesprang.png, Alt="
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Senter skjerm
+ 
+|FKB høydereferanse
+|Topp skjerm
  
 |===
  
@@ -3208,6 +3233,18 @@ image::figurer/skraamur.png[link=figurer/skraamur.png, Alt="Skråforstøtningsmu
 ==== Føringer
 [cols="h,2"]
 |===
+|FKB-A
+|Påkrevd registrering
+ 
+|FKB-B
+|Påkrevd registrering
+ 
+|FKB-C
+|Påkrevd registrering
+ 
+|FKB-D
+|Påkrevd registrering
+ 
 |FKB grunnrissreferanse
 |Omriss av murens skråflate
  
@@ -3225,18 +3262,6 @@ image::figurer/skraamur.png[link=figurer/skraamur.png, Alt="Skråforstøtningsmu
  
 |FKB-D minstestørrelse
 |Murer høyere enn 2,5m
- 
-|FKB-A
-|Påkrevd registrering
- 
-|FKB-B
-|Påkrevd registrering
- 
-|FKB-C
-|Påkrevd registrering
- 
-|FKB-D
-|Påkrevd registrering
  
 |===
  
@@ -3372,12 +3397,6 @@ image::figurer/voll.png[link=figurer/voll.png, Alt="Eksempel på registrering av
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Senter voll
- 
-|FKB høydereferanse
-|Topp voll
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -3389,6 +3408,12 @@ image::figurer/voll.png[link=figurer/voll.png, Alt="Eksempel på registrering av
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Senter voll
+ 
+|FKB høydereferanse
+|Topp voll
  
 |===
  
@@ -3549,12 +3574,6 @@ I tillegg kan hele omr&#229;det rundt hoppbakken med selve bakken, tilskuerplass
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant
- 
-|FKB høydereferanse
-|Topp, ev. terrengnivå
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -3566,6 +3585,12 @@ I tillegg kan hele omr&#229;det rundt hoppbakken med selve bakken, tilskuerplass
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant
+ 
+|FKB høydereferanse
+|Topp, ev. terrengnivå
  
 |===
  
@@ -3705,12 +3730,6 @@ image::figurer/idrettsanlegg.png[link=figurer/idrettsanlegg.png, Alt="Eksempel p
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant
- 
-|FKB høydereferanse
-|Terrengnivå, eventuelt topp
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -3722,6 +3741,12 @@ image::figurer/idrettsanlegg.png[link=figurer/idrettsanlegg.png, Alt="Eksempel p
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant
+ 
+|FKB høydereferanse
+|Terrengnivå, eventuelt topp
  
 |===
  
@@ -3856,12 +3881,6 @@ Parkdetaljer kan/b&#248;r ofte kompletteres med andre objekttyper som gjerder, m
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant objekt eller ev. senter objekt
- 
-|FKB høydereferanse
-|Topp objekt (HREF TOP) registreres som hovedregel
- 
 |FKB-A
 |Opsjonell registrering
  
@@ -3873,6 +3892,12 @@ Parkdetaljer kan/b&#248;r ofte kompletteres med andre objekttyper som gjerder, m
  
 |FKB-D
 |Registreres ikke
+ 
+|FKB grunnrissreferanse
+|Ytterkant objekt eller ev. senter objekt
+ 
+|FKB høydereferanse
+|Topp objekt (HREF TOP) registreres som hovedregel
  
 |===
  
@@ -4056,12 +4081,6 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant/senter
- 
-|FKB høydereferanse
-|Topp/terrengnivå
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -4073,6 +4092,12 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant/senter
+ 
+|FKB høydereferanse
+|Topp/terrengnivå
  
 |===
  
@@ -4207,15 +4232,6 @@ image::figurer/svommebasseng.png[link=figurer/svommebasseng.png, Alt="Eksempel p
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant mot vannflaten
- 
-|FKB høydereferanse
-|Topp bassengkant
- 
-|FKB-A minstestørrelse
-|Areal større enn 15m2
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -4227,6 +4243,15 @@ image::figurer/svommebasseng.png[link=figurer/svommebasseng.png, Alt="Eksempel p
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant mot vannflaten
+ 
+|FKB høydereferanse
+|Topp bassengkant
+ 
+|FKB-A minstestørrelse
+|Areal større enn 15m2
  
 |===
  
@@ -4359,15 +4384,6 @@ Merknad: Taubanen registreres helt til forankringspunkt i bakken/bygning etc.
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Senter mast
- 
-|FKB høydereferanse
-|Topp mast
- 
-|FKB-A minstestørrelse
-|Taubaner med lengde over 50m registreres
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -4379,6 +4395,15 @@ Merknad: Taubanen registreres helt til forankringspunkt i bakken/bygning etc.
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Senter mast
+ 
+|FKB høydereferanse
+|Topp mast
+ 
+|FKB-A minstestørrelse
+|Taubaner med lengde over 50m registreres
  
 |===
  
@@ -4587,12 +4612,6 @@ Registreres som enkeltpunkter med samme geometri som punktene i kurvegeometrien 
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Senter mast
- 
-|FKB høydereferanse
-|Topp mast
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -4604,6 +4623,12 @@ Registreres som enkeltpunkter med samme geometri som punktene i kurvegeometrien 
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Senter mast
+ 
+|FKB høydereferanse
+|Topp mast
  
 |===
  
@@ -4751,12 +4776,6 @@ image::figurer/tribune.png[link=figurer/tribune.png, Alt="Eksempel på amfi skal
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant av tribune
- 
-|FKB høydereferanse
-|Topp Ytterkant. Knekklinjer og sprang større enn 0,5m registreres
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -4768,6 +4787,12 @@ image::figurer/tribune.png[link=figurer/tribune.png, Alt="Eksempel på amfi skal
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant av tribune
+ 
+|FKB høydereferanse
+|Topp Ytterkant. Knekklinjer og sprang større enn 0,5m registreres
  
 |===
  
@@ -4888,12 +4913,26 @@ Markerte linjer p&#229; en demning, molo, sluse, pipe, t&#229;rn, murloddrett og
 ==== Tilleggsinformasjon for fotogrammetrisk registrering
 Benyttes kun for tilleggsbeskrivelse av &#248;vrige objekttyper i FKB-BygnAnlegg. Eksempel p&#229; bruk er markerte linjer p&#229; en demning og tak over gj&#248;dselkum.
 
+Store solcelleanlegg p&#229; bakken skal registreres som BeskrivendeHjelpelinjeAnlegg. Merk at solcelleanlegg p&#229; tak ikke skal registreres.
+
+Svingskive p&#229; bakkeniv&#229; i forbindelse med jernbane skal registreres. Omrisset av svingskiven registreres som BeskrivendeHjelpelinjeAnlegg. Det er ikke n&#248;dvendig &#229; ajourf&#248;re posisjonen til Bru eller Spormidt, ettersom disse vil endre posisjon kontinuerlig under bruk.
+
 Prinsipp for registrering av h&#248;ydesprang angitt under Skjerm gjelder ogs&#229; for BeskrivendehjelpelinjeAnlegg
  
  
 '''
-.Viser eksempel på bruk av BeskrivendeHjelpelinjeAnlegg (røde streker) til registrering av fortøyningsanlegg. Konstruksjonen vist med oransje strek skal også registreres i FKB-BygnAnlegg, f.eks. ved bruk av objekttype Fundament eller alternativt Murloddrett.
-image::figurer/beskrivendehjelpelinjeanlegg.png[link=figurer/beskrivendehjelpelinjeanlegg.png, Alt="Viser eksempel på bruk av BeskrivendeHjelpelinjeAnlegg (røde streker) til registrering av fortøyningsanlegg. Konstruksjonen vist med oransje strek skal også registreres i FKB-BygnAnlegg, f.eks. ved bruk av objekttype Fundament eller alternativt Murloddrett."]
+.Viser eksempel på bruk av BeskrivendeHjelpelinjeAnlegg (røde streker) til registrering av fortøyningsanlegg. Konstruksjonen vist med oransje strek skal også registreres i FKB-BygnAnlegg, f.eks. ved bruk av objekttype Fundament eller alternativt Murloddrett
+image::figurer/beskrivendehjelpelinjeanlegg.png[link=figurer/beskrivendehjelpelinjeanlegg.png, Alt="Viser eksempel på bruk av BeskrivendeHjelpelinjeAnlegg (røde streker) til registrering av fortøyningsanlegg. Konstruksjonen vist med oransje strek skal også registreres i FKB-BygnAnlegg, f.eks. ved bruk av objekttype Fundament eller alternativt Murloddrett"]
+ 
+ 
+'''
+.Illustrasjon av solcelleanlegg på bakken
+image::figurer/Solcelleanlegg.png[link=figurer/Solcelleanlegg.png, Alt="Illustrasjon av solcelleanlegg på bakken"]
+ 
+ 
+'''
+.Illustrasjon av svingskive på bakkenivå
+image::figurer/svingskive.png[link=figurer/svingskive.png, Alt="Illustrasjon av svingskive på bakkenivå"]
  
  
  
@@ -4901,12 +4940,6 @@ image::figurer/beskrivendehjelpelinjeanlegg.png[link=figurer/beskrivendehjelpeli
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant/senter
- 
-|FKB høydereferanse
-|Topp/terrengnivå (angis med høydereferanse)
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -4918,6 +4951,12 @@ image::figurer/beskrivendehjelpelinjeanlegg.png[link=figurer/beskrivendehjelpeli
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant/senter
+ 
+|FKB høydereferanse
+|Topp/terrengnivå (angis med høydereferanse)
  
 |===
  
@@ -5076,12 +5115,6 @@ image::figurer/demning2.png[link=figurer/demning2.png, Alt="Eksempel på registr
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant dam. Følger terrenget og høyeste tillatte reguleringsvannstand
- 
-|FKB høydereferanse
-|Ytterkant dam. Følger terrenget og høyeste tillatte reguleringsvannstand
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -5093,6 +5126,12 @@ image::figurer/demning2.png[link=figurer/demning2.png, Alt="Eksempel på registr
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant dam. Følger terrenget og høyeste tillatte reguleringsvannstand
+ 
+|FKB høydereferanse
+|Ytterkant dam. Følger terrenget og høyeste tillatte reguleringsvannstand
  
 |===
  
@@ -5220,15 +5259,6 @@ BeskrivendeHjelpelinjeAnlegg. Det er viktig &#229; f&#229; registrert st&#248;rs
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant elveforbygning mot terreng
- 
-|FKB høydereferanse
-|Ytterkant elveforbygning mot terreng
- 
-|FKB-A minstestørrelse
-|Høyde større enn 1m
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -5240,6 +5270,15 @@ BeskrivendeHjelpelinjeAnlegg. Det er viktig &#229; f&#229; registrert st&#248;rs
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant elveforbygning mot terreng
+ 
+|FKB høydereferanse
+|Ytterkant elveforbygning mot terreng
+ 
+|FKB-A minstestørrelse
+|Høyde større enn 1m
  
 |===
  
@@ -5359,12 +5398,6 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant av elveterskel
- 
-|FKB høydereferanse
-|Vannspeil
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -5376,6 +5409,12 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant av elveterskel
+ 
+|FKB høydereferanse
+|Vannspeil
  
 |===
  
@@ -5496,12 +5535,6 @@ FiktivAvgrensningForAnlegg er med p&#229; &#229; danne flate for Kai.
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Der man kan anta at Kai går over til noe annet (terreng/veg/bygning etc.)
- 
-|FKB høydereferanse
-|Terrenget
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -5513,6 +5546,12 @@ FiktivAvgrensningForAnlegg er med p&#229; &#229; danne flate for Kai.
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Der man kan anta at Kai går over til noe annet (terreng/veg/bygning etc.)
+ 
+|FKB høydereferanse
+|Terrenget
  
 |===
  
@@ -5613,12 +5652,6 @@ image::figurer/fiskehjell2.png[link=figurer/fiskehjell2.png, Alt="Registrering a
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant av fiskehjell
- 
-|FKB høydereferanse
-|Enten fot eller topp. Avhengig av type fiskehjell. Se figur.
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -5630,6 +5663,12 @@ image::figurer/fiskehjell2.png[link=figurer/fiskehjell2.png, Alt="Registrering a
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant av fiskehjell
+ 
+|FKB høydereferanse
+|Enten fot eller topp. Avhengig av type fiskehjell. Se figur.
  
 |===
  
@@ -5753,12 +5792,6 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Topp møne
- 
-|FKB høydereferanse
-|Topp mønelinje. Knekklinjer og høydesprang over 0,5m registreres
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -5770,6 +5803,12 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Topp møne
+ 
+|FKB høydereferanse
+|Topp mønelinje. Knekklinjer og høydesprang over 0,5m registreres
  
 |===
  
@@ -5889,12 +5928,6 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant fisketrapp
- 
-|FKB høydereferanse
-|Topp fisketrapp. Alle knekklinjer og sprang større enn 0,5m registreres
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -5906,6 +5939,12 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant fisketrapp
+ 
+|FKB høydereferanse
+|Topp fisketrapp. Alle knekklinjer og sprang større enn 0,5m registreres
  
 |===
  
@@ -6035,15 +6074,6 @@ image::figurer/flytebrygge_landgang.png[link=figurer/flytebrygge_landgang.png, A
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant flytebrygge
- 
-|FKB høydereferanse
-|Topp flytebrygge. Alle knekklinjer og sprang større enn 0,5m registreres
- 
-|FKB-A minstestørrelse
-|Flytebrygger større enn 6m2 registreres
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -6055,6 +6085,15 @@ image::figurer/flytebrygge_landgang.png[link=figurer/flytebrygge_landgang.png, A
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant flytebrygge
+ 
+|FKB høydereferanse
+|Topp flytebrygge. Alle knekklinjer og sprang større enn 0,5m registreres
+ 
+|FKB-A minstestørrelse
+|Flytebrygger større enn 6m2 registreres
  
 |===
  
@@ -6182,15 +6221,6 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant landgang
- 
-|FKB høydereferanse
-|Gulv på landgang
- 
-|FKB-A minstestørrelse
-|Alle landganger som er minst 2 meter lange registreres
- 
 |FKB-A
 |Opsjonell registrering
  
@@ -6202,6 +6232,15 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
  
 |FKB-D
 |Registreres ikke
+ 
+|FKB grunnrissreferanse
+|Ytterkant landgang
+ 
+|FKB høydereferanse
+|Gulv på landgang
+ 
+|FKB-A minstestørrelse
+|Alle landganger som er minst 2 meter lange registreres
  
 |===
  
@@ -6316,17 +6355,15 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
 image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/figurer/objtype_flytebrygge_utligger.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/figurer/objtype_flytebrygge_utligger.png, Alt="Illustrasjon fra produktspesifikasjon: FlytebryggeUtligger"]
  
  
+[discrete]
+==== Tilleggsinformasjon for fotogrammetrisk registrering
+Alle utliggere skal registreres, ogs&#229; de som stikker ut fra KaiBrygge.
+ 
  
 [discrete]
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Senter utligger
- 
-|FKB høydereferanse
-|Topp utligger
- 
 |FKB-A
 |Opsjonell registrering
  
@@ -6338,6 +6375,12 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
  
 |FKB-D
 |Registreres ikke
+ 
+|FKB grunnrissreferanse
+|Senter utligger
+ 
+|FKB høydereferanse
+|Topp utligger
  
 |===
  
@@ -6472,15 +6515,6 @@ image::figurer/kaibrygge.png[link=figurer/kaibrygge.png, Alt="Eksempel på regis
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Se avgrensningsobjekter
- 
-|FKB høydereferanse
-|Se avgrensningsobjekter
- 
-|FKB-A minstestørrelse
-|Større enn 15m2
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -6492,6 +6526,15 @@ image::figurer/kaibrygge.png[link=figurer/kaibrygge.png, Alt="Eksempel på regis
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Se avgrensningsobjekter
+ 
+|FKB høydereferanse
+|Se avgrensningsobjekter
+ 
+|FKB-A minstestørrelse
+|Større enn 15m2
  
 |===
  
@@ -6592,12 +6635,6 @@ Kaifront registreres ogs&#229; i Havnedata. Der er det et krav om at hvert objek
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant Kai (sammenfallende med KystkonturTekniskeAnlegg)
- 
-|FKB høydereferanse
-|Topp Kai. Knekklinjer og sprang over 0,5m registreres
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -6609,6 +6646,12 @@ Kaifront registreres ogs&#229; i Havnedata. Der er det et krav om at hvert objek
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant Kai (sammenfallende med KystkonturTekniskeAnlegg)
+ 
+|FKB høydereferanse
+|Topp Kai. Knekklinjer og sprang over 0,5m registreres
  
 |===
  
@@ -6738,15 +6781,6 @@ image::figurer/molo_kai.png[link=figurer/molo_kai.png, Alt="Eksempel på registe
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant molo ved vannets referansenivå (middelhøyvannstand)
- 
-|FKB høydereferanse
-|Ved vannets referansenivå (middelhøyvannstand)
- 
-|FKB-A minstestørrelse
-|Moloer større enn 15m2 registreres
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -6758,6 +6792,15 @@ image::figurer/molo_kai.png[link=figurer/molo_kai.png, Alt="Eksempel på registe
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant molo ved vannets referansenivå (middelhøyvannstand)
+ 
+|FKB høydereferanse
+|Ved vannets referansenivå (middelhøyvannstand)
+ 
+|FKB-A minstestørrelse
+|Moloer større enn 15m2 registreres
  
 |===
  
@@ -6887,12 +6930,6 @@ registreres som bygning, med bygningstype fyr
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Senter fyrlykt/tak
- 
-|FKB høydereferanse
-|Topp lyskilde
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -6904,6 +6941,12 @@ registreres som bygning, med bygningstype fyr
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Senter fyrlykt/tak
+ 
+|FKB høydereferanse
+|Topp lyskilde
  
 |===
  
@@ -7023,12 +7066,6 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant kar
- 
-|FKB høydereferanse
-|Topp kar
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -7040,6 +7077,12 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant kar
+ 
+|FKB høydereferanse
+|Topp kar
  
 |===
  
@@ -7168,12 +7211,6 @@ Det anbefales bruk av manus ved fotogrammetrisk registrering av oppdrettslokalit
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant av de faste forankringene for oppdrettsanlegget
- 
-|FKB høydereferanse
-|Midlere høyvannstand
- 
 |FKB-A
 |Opsjonell registrering
  
@@ -7185,6 +7222,12 @@ Det anbefales bruk av manus ved fotogrammetrisk registrering av oppdrettslokalit
  
 |FKB-D
 |Opsjonell registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant av de faste forankringene for oppdrettsanlegget
+ 
+|FKB høydereferanse
+|Midlere høyvannstand
  
 |===
  
@@ -7309,12 +7352,6 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Senter pælebunt
- 
-|FKB høydereferanse
-|Topp pælebunt
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -7326,6 +7363,12 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
  
 |FKB-D
 |Registreres ikke
+ 
+|FKB grunnrissreferanse
+|Senter pælebunt
+ 
+|FKB høydereferanse
+|Topp pælebunt
  
 |===
  
@@ -7448,18 +7491,20 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
 [discrete]
 ==== Tilleggsinformasjon for fotogrammetrisk registrering
 Alle r&#248;r i r&#248;rgaten registreres. Fundamentene, ofte av betong, registreres som fundament.
+
+R&#248;rgater innenfor et lukket omr&#229;de som ikke er tilgjengelig for allmenn ferdsel, skal ikke registreres.
+ 
+ 
+'''
+.Illustrasjon av rørgater på Mongstad, som ikke skal registreres
+image::figurer/rørgater_mongstad.png[link=figurer/rørgater_mongstad.png, Alt="Illustrasjon av rørgater på Mongstad, som ikke skal registreres"]
+ 
  
  
 [discrete]
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Senter rørgate
- 
-|FKB høydereferanse
-|Topp rørgate. Knekklinjer og sprang større enn 0,5m registreres
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -7471,6 +7516,12 @@ Alle r&#248;r i r&#248;rgaten registreres. Fundamentene, ofte av betong, registr
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Senter rørgate
+ 
+|FKB høydereferanse
+|Topp rørgate. Knekklinjer og sprang større enn 0,5m registreres
  
 |===
  
@@ -7600,15 +7651,6 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant slipp
- 
-|FKB høydereferanse
-|Topp ytterkant. Høydesprang registreres.
- 
-|FKB-A minstestørrelse
-|Slipper lengre enn 8 m registreres
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -7620,6 +7662,15 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant slipp
+ 
+|FKB høydereferanse
+|Topp ytterkant. Høydesprang registreres.
+ 
+|FKB-A minstestørrelse
+|Slipper lengre enn 8 m registreres
  
 |===
  
@@ -7748,12 +7799,6 @@ Beskrivende linjer inne p&#229; sluseanlegget kan registreres som BeskrivendeHje
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Ytterkant sluseanlegg, langs terrenget.
- 
-|FKB høydereferanse
-|Topp i ytterkant av anlegget. Knekklinjer og sprang over 0,5m registreres
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -7765,6 +7810,12 @@ Beskrivende linjer inne p&#229; sluseanlegget kan registreres som BeskrivendeHje
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Ytterkant sluseanlegg, langs terrenget.
+ 
+|FKB høydereferanse
+|Topp i ytterkant av anlegget. Knekklinjer og sprang over 0,5m registreres
  
 |===
  
