@@ -22,7 +22,7 @@ Evt. usikker registrering skal fremkomme av kvalitetskodingen.
  
  
 '''
-.Eksempel på registrering av spennvidde (i luft).
+.Eksempel på registrering av spennvidde (i luft)
 image::figurer/bru_eksempel.png[link=figurer/bru_eksempel.png, Alt="Eksempel på registrering av spennvidde (i luft)."]
  
  
@@ -2374,7 +2374,7 @@ image::figurer/mur_gjodsel1.png[link=figurer/mur_gjodsel1.png, Alt="Eksempel på
  
  
 '''
-.Eksempel på registrering av lukket gjødselkum (med tak) som MurFrittstående.
+.Eksempel på registrering av lukket gjødselkum (med tak) som MurFrittstående
 image::figurer/mur_gjodsel2.png[link=figurer/mur_gjodsel2.png, Alt="Eksempel på registrering av lukket gjødselkum (med tak) som MurFrittstående."]
  
  
