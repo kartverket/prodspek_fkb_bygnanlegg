@@ -27,7 +27,7 @@ image::figurer/bru_eksempel.png[link=figurer/bru_eksempel.png, Alt="Eksempel på
  
  
 '''
-.Figuren viser hvordan veg og bru forholder seg til hverandre.  
+.Figuren viser hvordan veg og bru forholder seg til hverandre  
 image::figurer/bru_skisse.png[link=figurer/bru_skisse.png, Alt="Figuren viser hvordan veg og bru forholder seg til hverandre.  "]
  
  
@@ -1306,7 +1306,7 @@ Dersom deler av kanten har d&#229;rlig innsyn angis dette ved kvalitetskoding p&
  
  
 '''
-.Eksempel på registrering av Fundament ved rørgater.
+.Eksempel på registrering av Fundament ved rørgater
 image::figurer/fundament.png[link=figurer/fundament.png, Alt="Eksempel på registrering av Fundament ved rørgater."]
  
  
@@ -1653,12 +1653,12 @@ Hovedregelen er at tanker st&#248;rre enn minstem&#229;l registreres som separat
  
  
 '''
-.Registrering av liggende tanker med skrå vegger.
+.Registrering av liggende tanker med skrå vegger
 image::figurer/tank.png[link=figurer/tank.png, Alt="Registrering av liggende tanker med skrå vegger."]
  
  
 '''
-.Når det er flere tanker ved siden av hverandre skal de registreres som et sammenhengende polygon, dersom det samlede arealet overstiger minstemål. Underste bilde viser tre tanker (hver enkelte Tank under minstemål) som skal registreres sammenhengende ettersom det samlede arealet overstiger minstemål.
+.Når det er flere tanker ved siden av hverandre skal de registreres som et sammenhengende polygon, dersom det samlede arealet overstiger minstemål. Underste bilde viser tre tanker (hver enkelte Tank under minstemål) som skal registreres sammenhengende ettersom det samlede arealet overstiger minstemål
 image::figurer/tank_flere.png[link=figurer/tank_flere.png, Alt="Når det er flere tanker ved siden av hverandre skal de registreres som et sammenhengende polygon, dersom det samlede arealet overstiger minstemål. Underste bilde viser tre tanker (hver enkelte Tank under minstemål) som skal registreres sammenhengende ettersom det samlede arealet overstiger minstemål."]
  
  
@@ -1826,7 +1826,7 @@ Avsatser og reposer regnes som del av trappa. Amfier og lignende anlegg skal reg
  
  
 '''
-.Eksempel på trapp som er delt inn i ulike nivåer. Rød helstrek viser de delene som er skrå/vertikale, rød stiplet viser horisontale deler av trappen.
+.Eksempel på trapp som er delt inn i ulike nivåer. Rød helstrek viser de delene som er skrå/vertikale, rød stiplet viser horisontale deler av trappen
 image::figurer/trapp.png[link=figurer/trapp.png, Alt="Eksempel på trapp som er delt inn i ulike nivåer. Rød helstrek viser de delene som er skrå/vertikale, rød stiplet viser horisontale deler av trappen."]
  
  
@@ -3031,7 +3031,7 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
  
  
 '''
-.Innglassede skjermer skal registreres som støyskjerm.  
+.Innglassede skjermer skal registreres som støyskjerm  
 image::figurer/skjerm_glass.png[link=figurer/skjerm_glass.png, Alt="Innglassede skjermer skal registreres som støyskjerm.  "]
  
  
@@ -3224,7 +3224,7 @@ Murer skal s&#229; langt som mulig registreres sammenhengende. Man skal pr&#248;
  
  
 '''
-.Skråforstøtningsmur registreres nå forskjellen i grunnriss mellom topp og bunn (Delta P i figuren) er større enn 1/3 av høyden av muren.
+.Skråforstøtningsmur registreres nå forskjellen i grunnriss mellom topp og bunn (Delta P i figuren) er større enn 1/3 av høyden av muren
 image::figurer/skraamur.png[link=figurer/skraamur.png, Alt="Skråforstøtningsmur registreres nå forskjellen i grunnriss mellom topp og bunn (Delta P i figuren) er større enn 1/3 av høyden av muren."]
  
  
@@ -5106,7 +5106,7 @@ image::figurer/demning.png[link=figurer/demning.png, Alt="Skisse som viser høyd
  
  
 '''
-.Eksempel på registrering av Demning. Rød linje angir avgrensning av Demning, mens grønn linje angir BeskrivendeHjelpelinjeAnlegg.
+.Eksempel på registrering av Demning. Rød linje angir avgrensning av Demning, mens grønn linje angir BeskrivendeHjelpelinjeAnlegg
 image::figurer/demning2.png[link=figurer/demning2.png, Alt="Eksempel på registrering av Demning. Rød linje angir avgrensning av Demning, mens grønn linje angir BeskrivendeHjelpelinjeAnlegg."]
  
  
@@ -6506,7 +6506,7 @@ Kaier blir ogs&#229; registrert i Havnedata. Det kan v&#230;re aktuelt &#229; le
  
  
 '''
-.Eksempel på registrering av KaiBryggekant (rød helstrek), FiktivAvgrensningForAnlegg (rød stiplet), MurLoddrett (blått), AnnetGjerde (gult), Trapp (grønt).
+.Eksempel på registrering av KaiBryggekant (rød helstrek), FiktivAvgrensningForAnlegg (rød stiplet), MurLoddrett (blått), AnnetGjerde (gult), Trapp (grønt)
 image::figurer/kaibrygge.png[link=figurer/kaibrygge.png, Alt="Eksempel på registrering av KaiBryggekant (rød helstrek), FiktivAvgrensningForAnlegg (rød stiplet), MurLoddrett (blått), AnnetGjerde (gult), Trapp (grønt)."]
  
  
