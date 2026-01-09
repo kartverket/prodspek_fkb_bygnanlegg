@@ -22,12 +22,12 @@ Evt. usikker registrering skal fremkomme av kvalitetskodingen.
  
  
 '''
-.Eksempel på registrering av spennvidde (i luft)
+.Eksempel på registrering av spennvidde (i luft).
 image::figurer/bru_eksempel.png[link=figurer/bru_eksempel.png, Alt="Eksempel på registrering av spennvidde (i luft)."]
  
  
 '''
-.Figuren viser hvordan veg og bru forholder seg til hverandre  
+.Figuren viser hvordan veg og bru forholder seg til hverandre.  
 image::figurer/bru_skisse.png[link=figurer/bru_skisse.png, Alt="Figuren viser hvordan veg og bru forholder seg til hverandre.  "]
  
  
@@ -524,7 +524,7 @@ av vegen/jernbanen kan stikkrenna registreres bare p&#229; ene siden
 Ved fotogrammetrisk registrering er kun endene av stikkrenna 
 synlige. Forl&#248;pet under vegen/jernbanen er ukjent. H&#248;ydereferansen kan v&#230;re usikker.
 
-F&#248;ringene om fullstendighet i FKB-Vann gjelder uavhengig av om det er bestilt opsjoner Stikkrenne og/eller Kulvert i FKB-BygnAnlegg. Dette inneb&#230;rer at vannveger under bakken i stikkrenner og kulverter skal registreres b&#229;de i FKB-Vann med medium U, og i FKB-BygnAnlegg n&#229;r disse opsjonene er bestilt. Dette for at vannettverket skal bli registrert sammenhengende i FKB-Vann.
+F&#248;ringene om fullstendighet i FKB-Vann gjelder uavhengig av om det er bestilt opsjoner Stikkrenne og/eller Kulvert i FKB-BygnAnlegg. Dette inneb&#230;rer at vannveger under bakken i stikkrenner og kulverter skal registreres b&#229;de i FKB-Vann med medium U, og i FKB-BygnAnlegg n&#229;r disse opsjonene er bestilt. Dette for at vannettverket skal bli registrert sammenhengende i FKB-Vann. I Fotogrammetrisk registreringsinstruks for Vann, kap. 3.11 er det en figur som beskriver vannobjekt med medium U registrert sammen med stikkrenne.
  
  
 '''
@@ -1306,7 +1306,7 @@ Dersom deler av kanten har d&#229;rlig innsyn angis dette ved kvalitetskoding p&
  
  
 '''
-.Eksempel på registrering av Fundament ved rørgater
+.Eksempel på registrering av Fundament ved rørgater.
 image::figurer/fundament.png[link=figurer/fundament.png, Alt="Eksempel på registrering av Fundament ved rørgater."]
  
  
@@ -1653,12 +1653,12 @@ Hovedregelen er at tanker st&#248;rre enn minstem&#229;l registreres som separat
  
  
 '''
-.Registrering av liggende tanker med skrå vegger
+.Registrering av liggende tanker med skrå vegger.
 image::figurer/tank.png[link=figurer/tank.png, Alt="Registrering av liggende tanker med skrå vegger."]
  
  
 '''
-.Når det er flere tanker ved siden av hverandre skal de registreres som et sammenhengende polygon, dersom det samlede arealet overstiger minstemål. Underste bilde viser tre tanker (hver enkelte Tank under minstemål) som skal registreres sammenhengende ettersom det samlede arealet overstiger minstemål
+.Når det er flere tanker ved siden av hverandre skal de registreres som et sammenhengende polygon, dersom det samlede arealet overstiger minstemål. Underste bilde viser tre tanker (hver enkelte Tank under minstemål) som skal registreres sammenhengende ettersom det samlede arealet overstiger minstemål.
 image::figurer/tank_flere.png[link=figurer/tank_flere.png, Alt="Når det er flere tanker ved siden av hverandre skal de registreres som et sammenhengende polygon, dersom det samlede arealet overstiger minstemål. Underste bilde viser tre tanker (hver enkelte Tank under minstemål) som skal registreres sammenhengende ettersom det samlede arealet overstiger minstemål."]
  
  
@@ -1826,7 +1826,7 @@ Avsatser og reposer regnes som del av trappa. Amfier og lignende anlegg skal reg
  
  
 '''
-.Eksempel på trapp som er delt inn i ulike nivåer. Rød helstrek viser de delene som er skrå/vertikale, rød stiplet viser horisontale deler av trappen
+.Eksempel på trapp som er delt inn i ulike nivåer. Rød helstrek viser de delene som er skrå/vertikale, rød stiplet viser horisontale deler av trappen.
 image::figurer/trapp.png[link=figurer/trapp.png, Alt="Eksempel på trapp som er delt inn i ulike nivåer. Rød helstrek viser de delene som er skrå/vertikale, rød stiplet viser horisontale deler av trappen."]
  
  
@@ -2156,19 +2156,12 @@ Gjerder i forbindelse med anleggsomr&#229;der og str&#248;mgjerder skal ikke reg
 
 Gjerder/rekkverk p&#229; bruer langs jernbane skal registreres, og tildeles medium L. Gjerdetype Annet gjerde brukes.
 
-Reingjerde er godkjent gjerdetype. Normalt skal ikke disse gjerdene registreres fotogrammetrisk.
-
 Fortrinnsvis skal topp gjerde registreres, men der dette er vanskelig kan h&#248;yde for gjerdet registreres ved terrengniv&#229; (HREF FOT). 
  
  
 '''
 .Illustrasjon av gjerde/rekkverk (blått, MEDIUM L) på bru langs jernbane. Kabelkanal er også illustert i bildet (rødt og rødt stiplet på bru, MEDIUM L)
 image::figurer/gjerde_bru_bane.png[link=figurer/gjerde_bru_bane.png, Alt="Illustrasjon av gjerde/rekkverk (blått, MEDIUM L) på bru langs jernbane. Kabelkanal er også illustert i bildet (rødt og rødt stiplet på bru, MEDIUM L)"]
- 
- 
-'''
-.Illustrasjon av Reingjerde
-image::figurer/reingjerde.png[link=figurer/reingjerde.png, Alt="Illustrasjon av Reingjerde"]
  
  
  
@@ -2344,6 +2337,15 @@ image::figurer/steingjerde.png[link=figurer/steingjerde.png, Alt="Eksempel på s
  
  
  
+[discrete]
+===== Gjerdetype - Kodenavn: Reingjerde
+*Definisjon:* Gjerde for reindrift. Gjerder som st&#229;r mer enn en sesong skal godkjennes av Landbruksdepartementet etter Reindriftsloven. Gjerdetype Reingjerde skal kun p&#229;f&#248;res etter spesiell avtale for hvert prosjekt. Ellers brukes gjerdetype Annet gjerde.
+ 
+.Illustrasjon av Reingjerde
+image::figurer/reingjerde.png[link=figurer/reingjerde.png, Alt="Illustrasjon av Reingjerde"]
+ 
+ 
+ 
 <<<
 '''
  
@@ -2374,7 +2376,7 @@ image::figurer/mur_gjodsel1.png[link=figurer/mur_gjodsel1.png, Alt="Eksempel på
  
  
 '''
-.Eksempel på registrering av lukket gjødselkum (med tak) som MurFrittstående
+.Eksempel på registrering av lukket gjødselkum (med tak) som MurFrittstående.
 image::figurer/mur_gjodsel2.png[link=figurer/mur_gjodsel2.png, Alt="Eksempel på registrering av lukket gjødselkum (med tak) som MurFrittstående."]
  
  
@@ -3031,7 +3033,7 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
  
  
 '''
-.Innglassede skjermer skal registreres som støyskjerm  
+.Innglassede skjermer skal registreres som støyskjerm.  
 image::figurer/skjerm_glass.png[link=figurer/skjerm_glass.png, Alt="Innglassede skjermer skal registreres som støyskjerm.  "]
  
  
@@ -3224,7 +3226,7 @@ Murer skal s&#229; langt som mulig registreres sammenhengende. Man skal pr&#248;
  
  
 '''
-.Skråforstøtningsmur registreres nå forskjellen i grunnriss mellom topp og bunn (Delta P i figuren) er større enn 1/3 av høyden av muren
+.Skråforstøtningsmur registreres nå forskjellen i grunnriss mellom topp og bunn (Delta P i figuren) er større enn 1/3 av høyden av muren.
 image::figurer/skraamur.png[link=figurer/skraamur.png, Alt="Skråforstøtningsmur registreres nå forskjellen i grunnriss mellom topp og bunn (Delta P i figuren) er større enn 1/3 av høyden av muren."]
  
  
@@ -5106,7 +5108,7 @@ image::figurer/demning.png[link=figurer/demning.png, Alt="Skisse som viser høyd
  
  
 '''
-.Eksempel på registrering av Demning. Rød linje angir avgrensning av Demning, mens grønn linje angir BeskrivendeHjelpelinjeAnlegg
+.Eksempel på registrering av Demning. Rød linje angir avgrensning av Demning, mens grønn linje angir BeskrivendeHjelpelinjeAnlegg.
 image::figurer/demning2.png[link=figurer/demning2.png, Alt="Eksempel på registrering av Demning. Rød linje angir avgrensning av Demning, mens grønn linje angir BeskrivendeHjelpelinjeAnlegg."]
  
  
@@ -6216,6 +6218,10 @@ image::figurer/flytebrygge_landgang.png[link=figurer/flytebrygge_landgang.png, A
 image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/figurer/objtype_flytebryggelandgang.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/figurer/objtype_flytebryggelandgang.png, Alt="Illustrasjon fra produktspesifikasjon: FlytebryggeLandgang"]
  
  
+[discrete]
+==== Tilleggsinformasjon for fotogrammetrisk registrering
+Registrering av FlytebryggeLandgang er avhengig av at tilh&#248;rende Flytebrygge eller KaiBrygge er over minstem&#229;l.
+ 
  
 [discrete]
 ==== Føringer
@@ -6358,6 +6364,8 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
 [discrete]
 ==== Tilleggsinformasjon for fotogrammetrisk registrering
 Alle utliggere skal registreres, ogs&#229; de som stikker ut fra KaiBrygge.
+
+Registrering av FlytebryggeUtligger er avhengig av at tilh&#248;rende Flytebrygge eller KaiBrygge er over minstem&#229;l.
  
  
 [discrete]
@@ -6506,7 +6514,7 @@ Kaier blir ogs&#229; registrert i Havnedata. Det kan v&#230;re aktuelt &#229; le
  
  
 '''
-.Eksempel på registrering av KaiBryggekant (rød helstrek), FiktivAvgrensningForAnlegg (rød stiplet), MurLoddrett (blått), AnnetGjerde (gult), Trapp (grønt)
+.Eksempel på registrering av KaiBryggekant (rød helstrek), FiktivAvgrensningForAnlegg (rød stiplet), MurLoddrett (blått), AnnetGjerde (gult), Trapp (grønt).
 image::figurer/kaibrygge.png[link=figurer/kaibrygge.png, Alt="Eksempel på registrering av KaiBryggekant (rød helstrek), FiktivAvgrensningForAnlegg (rød stiplet), MurLoddrett (blått), AnnetGjerde (gult), Trapp (grønt)."]
  
  
