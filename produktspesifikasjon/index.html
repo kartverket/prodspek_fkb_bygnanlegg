@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.20">
 <meta name="author" content="Geovekst">
-<title>SOSI-standardisert produktspesifikasjon: FKB-BygnAnlegg 5.1</title>
+<title>SOSI-standardisert produktspesifikasjon: FKB-BygnAnlegg 5.2</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -436,11 +436,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="book toc2 toc-left">
 <div id="header">
-<h1>SOSI-standardisert produktspesifikasjon: FKB-BygnAnlegg 5.1</h1>
+<h1>SOSI-standardisert produktspesifikasjon: FKB-BygnAnlegg 5.2</h1>
 <div class="details">
 <span id="author" class="author">Geovekst</span><br>
-<span id="revnumber">versjon 5.1,</span>
-<span id="revdate">2024-07-01</span>
+<span id="revnumber">versjon 5.2,</span>
+<span id="revdate">2027-01-01</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Innholdsfortegnelse</div>
@@ -452,10 +452,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_endringslogg">1.3. Endringslogg</a>
 <ul class="sectlevel3">
 <li><a href="#_innhold_i_endringsloggen">1.3.1. Innhold i endringsloggen</a></li>
-<li><a href="#_endringer_fra_fkb_bynganlegg_5_0_2_til_fkb_bygnanlegg_5_1">1.3.2. Endringer fra FKB-ByngAnlegg 5.0.2 til FKB-BygnAnlegg 5.1</a></li>
-<li><a href="#_endringer_fra_fkb_bygnanlegg_5_0_1_til_fkb_bygnanlegg_5_0_2">1.3.3. Endringer fra FKB-BygnAnlegg 5.0.1 til FKB-BygnAnlegg 5.0.2</a></li>
-<li><a href="#_endringer_fra_fkb_bynganlegg_5_0_til_fkb_bygnanlegg_5_0_1">1.3.4. Endringer fra FKB-ByngAnlegg 5.0 til FKB-BygnAnlegg 5.0.1</a></li>
-<li><a href="#_endringer_fra_fkb_bynganlegg_4_61_til_fkb_bygnanlegg_5_0">1.3.5. Endringer fra FKB-ByngAnlegg 4.61 til FKB-BygnAnlegg 5.0</a></li>
+<li><a href="#_endringer_fra_fkb_bynganlegg_5_1_til_fkb_bygnanlegg_5_2">1.3.2. Endringer fra FKB-ByngAnlegg 5.1 til FKB-BygnAnlegg 5.2</a></li>
+<li><a href="#_endringer_fra_fkb_bynganlegg_5_0_2_til_fkb_bygnanlegg_5_1">1.3.3. Endringer fra FKB-ByngAnlegg 5.0.2 til FKB-BygnAnlegg 5.1</a></li>
+<li><a href="#_endringer_fra_fkb_bygnanlegg_5_0_1_til_fkb_bygnanlegg_5_0_2">1.3.4. Endringer fra FKB-BygnAnlegg 5.0.1 til FKB-BygnAnlegg 5.0.2</a></li>
+<li><a href="#_endringer_fra_fkb_bynganlegg_5_0_til_fkb_bygnanlegg_5_0_1">1.3.5. Endringer fra FKB-ByngAnlegg 5.0 til FKB-BygnAnlegg 5.0.1</a></li>
+<li><a href="#_endringer_fra_fkb_bynganlegg_4_61_til_fkb_bygnanlegg_5_0">1.3.6. Endringer fra FKB-ByngAnlegg 4.61 til FKB-BygnAnlegg 5.0</a></li>
 </ul>
 </li>
 <li><a href="#_normative_referanser">1.4. Normative referanser</a></li>
@@ -505,7 +506,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_innhold_og_struktur">5. Innhold og struktur</a>
 <ul class="sectlevel2">
 <li><a href="#_omfang">5.1. Omfang</a></li>
-<li><a href="#_applicationschema_fkb_bygnanlegg_5_1">5.2. «ApplicationSchema» FKB-BygnAnlegg-5.1</a>
+<li><a href="#_applicationschema_fkb_bygnanlegg_5_2">5.2. «ApplicationSchema» FKB-BygnAnlegg-5.2</a>
 <ul class="sectlevel3">
 <li><a href="#_pakke_generelle_elementer">5.2.1. Pakke: Generelle elementer</a>
 <ul class="sectlevel4">
@@ -744,13 +745,25 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sectionbody">
 <div class="sidebarblock">
 <div class="content">
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Warning</div>
+</td>
+<td class="content">
+<strong>Høringsversjon!</strong> Siste gyldige versjon finnes på <a href="https://sosi.geonorge.no/produktspesifikasjoner/FKB-BygnAnlegg/5.1" class="bare">https://sosi.geonorge.no/produktspesifikasjoner/FKB-BygnAnlegg/5.1</a>
+</td>
+</tr>
+</table>
+</div>
 <div class="paragraph">
-<p><strong>Publisert</strong>: 2024-07-01<br>
-<strong>Denne versjonen finnes på</strong>: <a href="https://sosi.geonorge.no/produktspesifikasjoner/FKB-BygnAnlegg/5.1" class="bare">https://sosi.geonorge.no/produktspesifikasjoner/FKB-BygnAnlegg/5.1</a><br>
-- <a href="https://sosi.geonorge.no/produktspesifikasjoner/FKB-BygnAnlegg/5.1">HTML-dokument</a><br>
-- <a href="https://sosi.geonorge.no/uml-modeller/sosi-del-3-produktspesifikasjoner/FKB-BygnAnlegg/5.1">HTML-visning av UML-modellen</a><br>
+<p><strong>Publisert</strong>: 2026-10-01<br>
+<strong>Denne versjonen finnes på</strong>: <a href="https://sosi.geonorge.no/produktspesifikasjoner/FKB-BygnAnlegg/5.2" class="bare">https://sosi.geonorge.no/produktspesifikasjoner/FKB-BygnAnlegg/5.2</a><br>
+- <a href="https://sosi.geonorge.no/produktspesifikasjoner/FKB-BygnAnlegg/5.2">HTML-dokument</a><br>
+- <a href="https://sosi.geonorge.no/uml-modeller/sosi-del-3-produktspesifikasjoner/FKB-BygnAnlegg/5.2">HTML-visning av UML-modellen</a><br>
 <strong>Nyeste versjon finnes på</strong>: <a href="https://sosi.geonorge.no/produktspesifikasjoner/FKB-BygnAnlegg" class="bare">https://sosi.geonorge.no/produktspesifikasjoner/FKB-BygnAnlegg</a><br>
-<strong>Denne versjonen erstatter</strong>: <a href="https://sosi.geonorge.no/produktspesifikasjoner/FKB-BygnAnlegg/5.0.2">FKB-BygnAnlegg 5.0.2</a><br>
+<strong>Denne versjonen erstatter</strong>: <a href="https://sosi.geonorge.no/produktspesifikasjoner/FKB-BygnAnlegg/5.1">FKB-BygnAnlegg 5.1</a><br>
 <strong>Faglig godkjent av</strong>: Geovekst<br>
 <strong>Formelt godkjent av</strong>: Kartverket<br></p>
 </div>
@@ -823,6 +836,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li>
 <p>FKB-BygnAnlegg versjon 5.0.2 - 2022-01-01</p>
 </li>
+<li>
+<p>FKB-BygnAnlegg versjon 5.1 - 2024-07-01</p>
+</li>
 </ul>
 </div>
 </div>
@@ -838,7 +854,20 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_endringer_fra_fkb_bynganlegg_5_0_2_til_fkb_bygnanlegg_5_1">1.3.2. Endringer fra FKB-ByngAnlegg 5.0.2 til FKB-BygnAnlegg 5.1</h4>
+<h4 id="_endringer_fra_fkb_bynganlegg_5_1_til_fkb_bygnanlegg_5_2">1.3.2. Endringer fra FKB-ByngAnlegg 5.1 til FKB-BygnAnlegg 5.2</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Lagt til den opsjonelle egenskapen høydeOverBakken (HOB) på objekttype Gjerde</p>
+</li>
+<li>
+<p>Oppdatert beskrivelse av referanseramme i forbindelse med innføring av nye epsg-koder</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_endringer_fra_fkb_bynganlegg_5_0_2_til_fkb_bygnanlegg_5_1">1.3.3. Endringer fra FKB-ByngAnlegg 5.0.2 til FKB-BygnAnlegg 5.1</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -851,7 +880,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_endringer_fra_fkb_bygnanlegg_5_0_1_til_fkb_bygnanlegg_5_0_2">1.3.3. Endringer fra FKB-BygnAnlegg 5.0.1 til FKB-BygnAnlegg 5.0.2</h4>
+<h4 id="_endringer_fra_fkb_bygnanlegg_5_0_1_til_fkb_bygnanlegg_5_0_2">1.3.4. Endringer fra FKB-BygnAnlegg 5.0.1 til FKB-BygnAnlegg 5.0.2</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -864,7 +893,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_endringer_fra_fkb_bynganlegg_5_0_til_fkb_bygnanlegg_5_0_1">1.3.4. Endringer fra FKB-ByngAnlegg 5.0 til FKB-BygnAnlegg 5.0.1</h4>
+<h4 id="_endringer_fra_fkb_bynganlegg_5_0_til_fkb_bygnanlegg_5_0_1">1.3.5. Endringer fra FKB-ByngAnlegg 5.0 til FKB-BygnAnlegg 5.0.1</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -874,7 +903,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_endringer_fra_fkb_bynganlegg_4_61_til_fkb_bygnanlegg_5_0">1.3.5. Endringer fra FKB-ByngAnlegg 4.61 til FKB-BygnAnlegg 5.0</h4>
+<h4 id="_endringer_fra_fkb_bynganlegg_4_61_til_fkb_bygnanlegg_5_0">1.3.6. Endringer fra FKB-ByngAnlegg 4.61 til FKB-BygnAnlegg 5.0</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -1241,14 +1270,14 @@ Fullstendighet kan angis i prosent i relasjon til spesifiserte krav. Informasjon
 <div class="sect3">
 <h4 id="_versjon">3.1.2. Versjon</h4>
 <div class="paragraph">
-<p>5.1</p>
+<p>5.2</p>
 </div>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_referansedato">3.2. Referansedato</h3>
 <div class="paragraph">
-<p>2024-07-01</p>
+<p>2027-01-01</p>
 </div>
 </div>
 <div class="sect2">
@@ -1387,7 +1416,7 @@ Ikke angitt</p>
 <div class="sect3">
 <h4 id="_navn">4.1.3. Navn</h4>
 <div class="paragraph">
-<p>FKB-BygnAnlegg 5.1</p>
+<p>FKB-BygnAnlegg 5.2</p>
 </div>
 </div>
 <div class="sect3">
@@ -1435,7 +1464,7 @@ Ikke angitt</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_applicationschema_fkb_bygnanlegg_5_1">5.2. «ApplicationSchema» FKB-BygnAnlegg-5.1</h3>
+<h3 id="_applicationschema_fkb_bygnanlegg_5_2">5.2. «ApplicationSchema» FKB-BygnAnlegg-5.2</h3>
 <div class="paragraph">
 <p><strong>Definisjon:</strong> Datamodell for produktspesifikasjonen FKB-BygnAnlegg. FKB-BygnAnlegg beskriver bygningsmessige anlegg som ikke er knyttet til bygninger eller veger. Dette inkluderer objekter som murer, gjerder, taubaner, kaier, moloer, tanker etc.</p>
 </div>
@@ -1456,7 +1485,7 @@ Ikke angitt</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">designation</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">"Product specification FKB-BygnAnlegg 5.1"@en</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">"Product specification FKB-BygnAnlegg 5.2"@en</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">language</p></td>
@@ -1472,7 +1501,7 @@ Ikke angitt</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">SOSI_modellstatus</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">gyldig</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">utkast</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">SOSI_versjon</p></td>
@@ -1480,11 +1509,11 @@ Ikke angitt</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">targetNamespace</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.1" class="bare">http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.1</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.2" class="bare">http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.2</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">version</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">5.1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5.2</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">xmlns</p></td>
@@ -1765,9 +1794,9 @@ Mulighet til å legge inn utfyllende informasjon om objektet. Egenskapen bør ba
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Subtyper:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appfiktivavgrensningforanlegg">«featureType» FiktivAvgrensningForAnlegg</a><br>
-<a href="#appkaibrygge">«featureType» KaiBrygge</a><br>
-<a href="#appkvalitetpåkrevd">«FeatureType» KvalitetPåkrevd</a><br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appkvalitetpåkrevd">«FeatureType» KvalitetPåkrevd</a><br>
+<a href="#appfiktivavgrensningforanlegg">«featureType» FiktivAvgrensningForAnlegg</a><br>
+<a href="#appkaibrygge">«featureType» KaiBrygge</a><br></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Realisert fra:</p></td>
@@ -1822,41 +1851,41 @@ SOSI Generell objektkatalog::FKB Generell del::FKB Generell del-5.0::Generelle e
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Subtyper:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#apppælebunt">«featureType» Pælebunt</a><br>
-<a href="#appkaibryggekant">«featureType» KaiBryggeKant</a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appnrlobjekter">«FeatureType» NRLobjekter</a><br>
+<a href="#appnvdbobjekter">«FeatureType» NVDBobjekter</a><br>
+<a href="#appbrudetalj">«featureType» Brudetalj</a><br>
+<a href="#apptrapp">«featureType» Trapp</a><br>
+<a href="#appfundament">«featureType» Fundament</a><br>
 <a href="#appbrønn">«featureType» Brønn</a><br>
+<a href="#appavfallsbeholder">«featureType» Avfallsbeholder</a><br>
+<a href="#appmurfrittstående">«featureType» MurFrittstående</a><br>
+<a href="#appportstolpe">«featureType» Portstolpe</a><br>
 <a href="#appruin">«featureType» Ruin</a><br>
-<a href="#appoppdrettskar">«featureType» Oppdrettskar</a><br>
+<a href="#appidrettsanlegg">«featureType» Idrettsanlegg</a><br>
 <a href="#apphoppbakke">«featureType» Hoppbakke</a><br>
 <a href="#appskytebaneinnretning">«featureType» Skytebaneinnretning</a><br>
-<a href="#appavfallsbeholder">«featureType» Avfallsbeholder</a><br>
-<a href="#appflytebrygge">«featureType» Flytebrygge</a><br>
 <a href="#appsvømmebasseng">«featureType» Svømmebasseng</a><br>
-<a href="#appmurfrittstående">«featureType» MurFrittstående</a><br>
-<a href="#appfisketrapp">«featureType» Fisketrapp</a><br>
-<a href="#appnvdbobjekter">«FeatureType» NVDBobjekter</a><br>
-<a href="#appbeskrivendehjelpelinjeanlegg">«featureType» BeskrivendeHjelpelinjeAnlegg</a><br>
-<a href="#appoppdrettslokalitet">«featureType» Oppdrettslokalitet</a><br>
-<a href="#apptribune">«featureType» Tribune</a><br>
-<a href="#appmolo">«featureType» Molo</a><br>
-<a href="#appflytebryggeutligger">«featureType» FlytebryggeUtligger</a><br>
-<a href="#appelveterskel">«featureType» Elveterskel</a><br>
-<a href="#apptrapp">«featureType» Trapp</a><br>
-<a href="#appelveforbygning">«featureType» Elveforbygning</a><br>
-<a href="#appfiskehjell">«featureType» Fiskehjell</a><br>
-<a href="#appsluse">«featureType» Sluse</a><br>
-<a href="#appslipp">«featureType» Slipp</a><br>
-<a href="#appportstolpe">«featureType» Portstolpe</a><br>
-<a href="#appflytebryggelandgang">«featureType» FlytebryggeLandgang</a><br>
-<a href="#appbrudetalj">«featureType» Brudetalj</a><br>
-<a href="#appnavigasjonsinstallasjon">«featureType» Navigasjonsinstallasjon</a><br>
-<a href="#apprørgate">«featureType» Rørgate</a><br>
 <a href="#appparkdetalj">«featureType» Parkdetalj</a><br>
-<a href="#appdemning">«featureType» Demning</a><br>
-<a href="#appfundament">«featureType» Fundament</a><br>
-<a href="#appidrettsanlegg">«featureType» Idrettsanlegg</a><br>
+<a href="#apptribune">«featureType» Tribune</a><br>
 <a href="#appfiskehjellmøne">«featureType» FiskehjellMøne</a><br>
-<a href="#appnrlobjekter">«FeatureType» NRLobjekter</a><br></p></td>
+<a href="#appelveterskel">«featureType» Elveterskel</a><br>
+<a href="#appelveforbygning">«featureType» Elveforbygning</a><br>
+<a href="#apppælebunt">«featureType» Pælebunt</a><br>
+<a href="#appkaibryggekant">«featureType» KaiBryggeKant</a><br>
+<a href="#appoppdrettslokalitet">«featureType» Oppdrettslokalitet</a><br>
+<a href="#appdemning">«featureType» Demning</a><br>
+<a href="#appflytebrygge">«featureType» Flytebrygge</a><br>
+<a href="#apprørgate">«featureType» Rørgate</a><br>
+<a href="#appfiskehjell">«featureType» Fiskehjell</a><br>
+<a href="#appnavigasjonsinstallasjon">«featureType» Navigasjonsinstallasjon</a><br>
+<a href="#appsluse">«featureType» Sluse</a><br>
+<a href="#appflytebryggeutligger">«featureType» FlytebryggeUtligger</a><br>
+<a href="#appmolo">«featureType» Molo</a><br>
+<a href="#appflytebryggelandgang">«featureType» FlytebryggeLandgang</a><br>
+<a href="#appoppdrettskar">«featureType» Oppdrettskar</a><br>
+<a href="#appfisketrapp">«featureType» Fisketrapp</a><br>
+<a href="#appbeskrivendehjelpelinjeanlegg">«featureType» BeskrivendeHjelpelinjeAnlegg</a><br>
+<a href="#appslipp">«featureType» Slipp</a><br></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Realisert fra:</p></td>
@@ -1910,12 +1939,12 @@ Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::<span class="underlin
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Subtyper:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appflaggstang">«featureType» Flaggstang</a><br>
-<a href="#apptank">«featureType» Tank</a><br>
-<a href="#apppipe">«featureType» Pipe</a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#apppipe">«featureType» Pipe</a><br>
+<a href="#appflaggstang">«featureType» Flaggstang</a><br>
 <a href="#apptårn">«featureType» Tårn</a><br>
-<a href="#apptaubanemast">«FeatureType» Taubanemast</a><br>
-<a href="#apptaubane">«featureType» Taubane</a><br></p></td>
+<a href="#apptank">«featureType» Tank</a><br>
+<a href="#apptaubane">«featureType» Taubane</a><br>
+<a href="#apptaubanemast">«FeatureType» Taubanemast</a><br></p></td>
 </tr>
 </tbody>
 </table>
@@ -1964,15 +1993,15 @@ Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::<span class="underlin
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Subtyper:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appskjerm">«featureType» Skjerm</a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appkulvert">«featureType» Kulvert</a><br>
 <a href="#appbru">«featureType» Bru</a><br>
-<a href="#appkulvert">«featureType» Kulvert</a><br>
-<a href="#appskråforstøtningsmur">«featureType» SkråForstøtningsmur</a><br>
-<a href="#appmurloddrett">«featureType» MurLoddrett</a><br>
-<a href="#appvoll">«featureType» Voll</a><br>
 <a href="#apptunnelportal">«featureType» Tunnelportal</a><br>
 <a href="#appstikkrenne">«featureType» Stikkrenne</a><br>
-<a href="#appgjerde">«featureType» Gjerde</a><br></p></td>
+<a href="#appskråforstøtningsmur">«featureType» SkråForstøtningsmur</a><br>
+<a href="#appgjerde">«featureType» Gjerde</a><br>
+<a href="#appskjerm">«featureType» Skjerm</a><br>
+<a href="#appvoll">«featureType» Voll</a><br>
+<a href="#appmurloddrett">«featureType» MurLoddrett</a><br></p></td>
 </tr>
 </tbody>
 </table>
@@ -4110,6 +4139,30 @@ Eksempel: Måletårn og stupetårn</p>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">defaultCodeSpace</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/medium" class="bare">https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/medium</a></p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>høydeOverBakken</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/basistype/Real">Real</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -7889,7 +7942,7 @@ Merknad: KaiBrygge kan være bygget over vann slik at vannkonturen registeres un
 <p>FKB er detaljerte kartdata med en nøyaktighet på typisk 10 cm - 1 m og kan egne seg som datagrunnlag  i f.eks. beredskap, analyse, planlegging og prosjektering i tillegg til å fungere som et topografisk grunnkart.</p>
 </div>
 <div class="paragraph">
-<p>Den dominerende datafangstmetoden for FKB-data er fotogrammetrisk registrering. For fotogrammetrisk registrering er det angitt detaljerte kvalitetskrav. Se <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-BygnAnlegg/5.1">fotogrammetrisk registreringsinstruks for FKB-BygnAnlegg 5.1</a>.</p>
+<p>Den dominerende datafangstmetoden for FKB-data er fotogrammetrisk registrering. For fotogrammetrisk registrering er det angitt detaljerte kvalitetskrav. Se <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-BygnAnlegg/5.2">fotogrammetrisk registreringsinstruks for FKB-BygnAnlegg 5.2</a>.</p>
 </div>
 <div class="paragraph">
 <p>FKB vil ofte også inneholde data fra andre datakilder, for eksempel data etablert gjennom kommunal/offentlig saksbehandling, innmelding fra publikum eller digitalisert fra ortofoto. Se kapittel 9 for en nærmere beskrivelse av datakilder ved vedlikehold av FKB-data.</p>
@@ -7913,7 +7966,7 @@ Merknad: KaiBrygge kan være bygget over vann slik at vannkonturen registeres un
 <div class="sect2">
 <h3 id="_registeringsinstruks">8.2. Registeringsinstruks</h3>
 <div class="paragraph">
-<p>Fotogrammetrisk datafangst er den dominerende datafangstmetoden for FKB-BygnAnlegg 5.1. Se <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-BygnAnlegg/5.1/Fotogrammetrisk_2022-01-01">fotogrammetrisk registreringsinstruks for FKB-BygnAnlegg 5.1</a>.</p>
+<p>Fotogrammetrisk datafangst er den dominerende datafangstmetoden for FKB-BygnAnlegg 5.2. Se <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-BygnAnlegg/5.2/Fotogrammetrisk_2022-01-01">fotogrammetrisk registreringsinstruks for FKB-BygnAnlegg 5.2</a>.</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -8281,7 +8334,7 @@ Merknad: KaiBrygge kan være bygget over vann slik at vannkonturen registeres un
 <p>Det leveres metadata i henhold til ISO 19115 <a href="#ISO-METADATA">[ISO-METADATA]</a>.</p>
 </div>
 <div class="paragraph">
-<p>Se oppdaterte metadata for <a href="https://kartkatalog.geonorge.no/metadata/fkb-bygnanlegg/ede5ffb2-ee2a-44a3-852d-369a14d97f2e">FKB-BygnAnlegg 5.1 i kartkatalog på Geonorge</a>.</p>
+<p>Se oppdaterte metadata for <a href="https://kartkatalog.geonorge.no/metadata/fkb-bygnanlegg/ede5ffb2-ee2a-44a3-852d-369a14d97f2e">FKB-BygnAnlegg 5.2 i kartkatalog på Geonorge</a>.</p>
 </div>
 <div class="paragraph">
 <p>Under <a href="https://forvaltningsinformasjon.geonorge.no" class="bare">https://forvaltningsinformasjon.geonorge.no</a> finnes mer detaljert kommunevis informasjon om datainnholdet og forvaltningen av FKB-data.</p>
@@ -10409,6 +10462,13 @@ Merknad: KaiBrygge kan være bygget over vann slik at vannkonturen registeres un
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">..MEDIUM</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">T1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">høydeOverBakken</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..HOB</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D10</p></td>
 </tr>
 </tbody>
 </table>
@@ -14349,6 +14409,23 @@ Merknad: KaiBrygge kan være bygget over vann slik at vannkonturen registeres un
 </tr>
 </tbody>
 </table>
+<h6 id="_roller_10" class="discrete">Roller</h6>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 31.25%;">
+<col style="width: 31.25%;">
+<col style="width: 6.25%;">
+<col style="width: 31.25%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Rollenavn</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Objekttype</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Mult.</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>SOSI-navn</strong></p></td>
+</tr>
+</tbody>
+</table>
 <h5 id="_objekttype_kaibryggekant" class="discrete">Objekttype: KaiBryggeKant</h5>
 <h6 id="_geometrityper_42" class="discrete">Geometrityper</h6>
 <div class="paragraph">
@@ -15651,13 +15728,13 @@ Merknad: KaiBrygge kan være bygget over vann slik at vannkonturen registeres un
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.1/FKBBygnAnlegg.xsd">GML-skjema</a></p>
+<p><a href="https://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.2/FKBBygnAnlegg.xsd">GML-skjema</a></p>
 </li>
 <li>
-<p><a href="https://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.1/FKBBygnAnlegg.sch">Schematron-regler til validering av tilleggskrav til datainnhold og -struktur utover det som er definert i GML-skjemafil</a> (sch-fil)</p>
+<p><a href="https://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.2/FKBBygnAnlegg.sch">Schematron-regler til validering av tilleggskrav til datainnhold og -struktur utover det som er definert i GML-skjemafil</a> (sch-fil)</p>
 </li>
 <li>
-<p><a href="https://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.1/eksempel/">Katalog med eksempelfiler</a></p>
+<p><a href="https://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.2/eksempel/">Katalog med eksempelfiler</a></p>
 </li>
 </ul>
 </div>
@@ -15721,8 +15798,8 @@ av denne lisensen og ikke kan viderebrukes</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Versjon 5.1<br>
-Last updated 2024-07-04 08:16:18 +0200
+Versjon 5.2<br>
+Last updated 2026-10-01 08:55:29 +0200
 </div>
 </div>
 </body>

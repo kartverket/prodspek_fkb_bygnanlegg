@@ -1,13 +1,13 @@
 :datasett: FKB-BygnAnlegg
-:publisert: 2024-07-01
-:versjon: 5.1
-:skjemaversjon: 5.1
-:versjon-forrige: 5.0.2
-:versjon-erstattet-av: 5.1
-:underversjon: 2024-07-01
-:underversjon-forrige: 2022-01-01
+:publisert: 2026-10-01
+:versjon: 5.2
+:skjemaversjon: 5.2
+:versjon-forrige: 5.1
+:versjon-erstattet-av: 5.2
+:underversjon: 2027-01-01
+:underversjon-forrige: 2024-07-01
 :metadata-url: https://kartkatalog.geonorge.no/metadata/fkb-bygnanlegg/ede5ffb2-ee2a-44a3-852d-369a14d97f2e
-:dokumentstatus: 1
+:dokumentstatus: 2
 // All informasjon i hode over denne linja må fylles ut for hvert datasett. 
 include::../felles_prodspek/filhode.adoc[]
 
@@ -40,6 +40,7 @@ Tidligere versjoner:
 * FKB-BygnAnlegg versjon 5.0 - 2022-01-01
 * FKB-BygnAnlegg versjon 5.0.1 - 2022-01-01
 * FKB-BygnAnlegg versjon 5.0.2 - 2022-01-01
+* FKB-BygnAnlegg versjon 5.1 - 2024-07-01
 
 
 === Endringslogg
@@ -49,6 +50,11 @@ Tidligere versjoner:
 FKB 5.0 er en ny hovedversjon av FKB. Dette innebærer at det er gjort større endringer i standarden. Det vil ikke være tilstrekkelig å lese endringsloggen for å få et helhetlig bilde av FKB 5.0 produktspesifikasjonene. For å få et komplett bilde av produktspesifikasjonen må man lese dokumentasjonen som en helhet, inkludert de gjennomgående endringene som er beskrevet i FKB Generell del 5.0 <<FKB>>.
 
 Endringsloggene for det enkelte datasett har som ambisjonsnivå å beskrive de viktigste endringene når det gjelder datainnhold (objekttyper) siden forrige versjon. Endringsloggen vil ikke inneholde alle detaljerte endringer på egenskapsnivå eller endringer når det gjelder utvekslingsformat,  datamodellering eller lignende.
+
+==== Endringer fra FKB-ByngAnlegg 5.1 til FKB-BygnAnlegg 5.2
+
+* Lagt til den opsjonelle egenskapen høydeOverBakken (HOB) på objekttype Gjerde
+* Oppdatert beskrivelse av referanseramme i forbindelse med innføring av nye epsg-koder
 
 ==== Endringer fra FKB-ByngAnlegg 5.0.2 til FKB-BygnAnlegg 5.1
 
