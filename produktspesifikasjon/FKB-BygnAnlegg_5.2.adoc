@@ -1,5 +1,5 @@
 :datasett: FKB-BygnAnlegg
-:publisert: 2026-10-01
+:publisert: 2026-10-05
 :versjon: 5.2
 :skjemaversjon: 5.2
 :versjon-forrige: 5.1
@@ -54,7 +54,8 @@ Endringsloggene for det enkelte datasett har som ambisjonsnivå å beskrive de v
 ==== Endringer fra FKB-ByngAnlegg 5.1 til FKB-BygnAnlegg 5.2
 
 * Lagt til den opsjonelle egenskapen høydeOverBakken (HOB) på objekttype Gjerde
-* Oppdatert beskrivelse av referanseramme i forbindelse med innføring av nye epsg-koder
+* Fjernet realisering fra Bygnan 4.0 (SOSI del 2) da denne standarden er tilbaketrukket
+* Oppdatert kap. 6 med referanse til Vedlegg B i FKB Generell del
 
 ==== Endringer fra FKB-ByngAnlegg 5.0.2 til FKB-BygnAnlegg 5.1
 
@@ -171,7 +172,7 @@ include::modellRapport.adoc[]
 
 == Referansesystem
 
-include::../felles_prodspek/kap6_referansesystem.adoc[]
+Romlige referansesystem for håndteres likt for alle FKB-datasett. Se https://sosi.geonorge.no/Standarder/FKB_generell_del/#_romlige_referansesystem[Vedlegg B i FKB Generell del] for en beskrivelse.
 
 <<<
 
