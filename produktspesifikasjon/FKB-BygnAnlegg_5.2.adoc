@@ -1,5 +1,5 @@
 :datasett: FKB-BygnAnlegg
-:publisert: 2026-10-05
+:publisert: 2026-10-06
 :versjon: 5.2
 :skjemaversjon: 5.2
 :versjon-forrige: 5.1
@@ -172,7 +172,9 @@ include::modellRapport.adoc[]
 
 == Referansesystem
 
-Romlige referansesystem for håndteres likt for alle FKB-datasett. Se https://sosi.geonorge.no/Standarder/FKB_generell_del/#_romlige_referansesystem[Vedlegg B i FKB Generell del] for en beskrivelse.
+Romlige referansesystem for håndteres likt for alle FKB-datasett. 
+Se https://sosi.geonorge.no/Standarder/FKB_generell_del/#_romlige_referansesystem[Vedlegg B i FKB Generell del] for nærmere beskrivelse. 
+Data ihht. denne standarden skal håndteres i tråd med disse beskrivelsene.
 
 <<<
 
@@ -238,7 +240,7 @@ include::SOSIformatRealisering.adoc[]
 
 GML-realiseringen følger kravene i "Realisering i GML-format 5.0" <<SOSI-GML>>. Realiseringen defineres av følgende filer:
 
-* link:{skjema-url}/FKBBygnAnlegg.xsd[GML-skjema]
+* link:{skjema-url}/FKBBygnAnlegg.xsd[{skjema-url}/FKBBygnAnlegg.xsd]
 * link:{skjema-url}/FKBBygnAnlegg.sch[Schematron-regler til validering av tilleggskrav til datainnhold og -struktur utover det som er definert i GML-skjemafil] (sch-fil)
 * link:{skjema-url}/eksempel/[Katalog med eksempelfiler]
 
