@@ -2878,7 +2878,15 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
 ==== Tilleggsinformasjon for fotogrammetrisk registrering
 Ruin brukes kun om gamle, forfalne murer. For nye/vedlikeholdte murer/byggverk brukes andre objekttyper i FKB.
 
+Dersom en bygning fortsatt har mer eller mindre intakte takflater, slik at hj&#248;rnene p&#229; disse kan registreres, skal bygningen registreres som Bygning eller AnnenBygning i FKB-Bygning, og ikke som Ruin. Figuren under viser eksempler p&#229; bygninger som ikke er ruiner.
+
 Hvis ruinen har brede murer kan det ogs&#229; registreres indre avgrensning av mur.
+ 
+ 
+'''
+.Eksempel på bygninger som skal registreres som Bygning/AnnenBygning og ikke som Ruin
+image::figurer/ikke_ruin.png[link=figurer/ikke_ruin.png, Alt="Eksempel på bygninger som skal registreres som Bygning/AnnenBygning og ikke som Ruin"]
+ 
  
  
 [discrete]
@@ -4222,11 +4230,13 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-BygnAnlegg/5.0/fi
 [discrete]
 ==== Tilleggsinformasjon for fotogrammetrisk registrering
 Som sv&#248;mmebasseng regnes ikke fuglebad og fontener. Slike objekter kan registreres som Parkdetalj.
+
+Ogs&#229; Sv&#248;mmebasseng med tak over skal registreres, se eksempel i figur under.
  
  
 '''
-.Eksempel på regstrering av svømmebasseng
-image::figurer/svommebasseng.png[link=figurer/svommebasseng.png, Alt="Eksempel på regstrering av svømmebasseng"]
+.Eksempel på registrering av svømmebasseng med tak over
+image::figurer/svoemmebasseng_tak.png[link=figurer/svoemmebasseng_tak.png, Alt="Eksempel på registrering av svømmebasseng med tak over"]
  
  
  
@@ -7936,3 +7946,4 @@ Beskrivende linjer inne p&#229; sluseanlegget kan registreres som BeskrivendeHje
  
 |===
 // End of Registreringsinstruks UML-model
+
