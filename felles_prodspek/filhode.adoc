@@ -22,7 +22,7 @@ ifdef::backend-pdf[:toc: macro]
 :fkbdatasett: {datasett} {versjon}
 :prodspek-url: {prodspekbase-url}{datasett}
 :uml-url: {umlbase-url}{datasett}/{versjon}
-:reginstr-url: {reginstrbase-url}{datasett}/{skjemaversjon}
+:reginstr-url: {reginstrbase-url}{datasett}/{skjemaversjon}_{reginst_dato}
 
 
 = SOSI-standardisert produktspesifikasjon: {fkbdatasett}
@@ -51,10 +51,10 @@ ifeval::[{dokumentstatus} == 1]
 
 *Publisert*: {publisert} +
 *Denne versjonen finnes på*: {prodspek-url}/{versjon} +
-- {prodspek-url}/{versjon}[HTML-dokument] +
-- {uml-url}[HTML-visning av UML-modellen] +
+*HTML-visning av UML-modellen*: {uml-url} +
 *Nyeste versjon finnes på*: {prodspek-url} +
-*Denne versjonen erstatter*: {prodspek-url}/{versjon-forrige}[{datasett} {versjon-forrige}] +
+*Denne versjonen erstatter*: {prodspek-url}/{versjon-forrige} +
+
 *Faglig godkjent av*: Geovekst +
 *Formelt godkjent av*: Kartverket +
 

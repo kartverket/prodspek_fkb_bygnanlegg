@@ -1,5 +1,5 @@
 :datasett: FKB-BygnAnlegg
-:publisert: 2026-10-06
+:publisert: 2026-12-01
 :versjon: 5.2
 :skjemaversjon: 5.2
 :versjon-forrige: 5.1
@@ -7,7 +7,7 @@
 :underversjon: 2027-01-01
 :underversjon-forrige: 2024-07-01
 :metadata-url: https://kartkatalog.geonorge.no/metadata/fkb-bygnanlegg/ede5ffb2-ee2a-44a3-852d-369a14d97f2e
-:dokumentstatus: 2
+:dokumentstatus: 1
 // All informasjon i hode over denne linja må fylles ut for hvert datasett. 
 include::../felles_prodspek/filhode.adoc[]
 
@@ -198,14 +198,6 @@ include::../felles_prodspek/kap13_metadata.adoc[]
 <<<
 
 [appendix]
-== SOSI-format-realisering
-
-SOSI-realiseringen følger kravene i "Realisering i SOSI-format 5.0" <<SOSI-FORMAT>>. Under en utlisting av SOSI-formatrealiseringen:
-
-include::SOSIformatRealisering.adoc[]
-
-
-[appendix]
 == GML-realisering
 
 GML-realiseringen følger kravene i "Realisering i GML-format 5.0" <<SOSI-GML>>. Realiseringen defineres av følgende filer:
@@ -213,6 +205,13 @@ GML-realiseringen følger kravene i "Realisering i GML-format 5.0" <<SOSI-GML>>.
 * link:{skjema-url}/FKBBygnAnlegg.xsd[{skjema-url}/FKBBygnAnlegg.xsd] (GML-applikasjonsskjema)
 * link:{skjema-url}/FKBBygnAnlegg.sch[{skjema-url}/FKBBygnAnlegg.sch] (Schematron-regler til validering av tilleggskrav til datainnhold og -struktur utover det som er definert i GML-skjemafil)
 
+
+[appendix]
+== SOSI-format-realisering
+
+SOSI-realiseringen følger kravene i "Realisering i SOSI-format 5.1" <<SOSI-FORMAT>>. Under en utlisting av SOSI-formatrealiseringen:
+
+include::SOSIformatRealisering.adoc[]
 
 :sectnums!:
 
