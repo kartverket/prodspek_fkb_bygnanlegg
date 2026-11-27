@@ -2156,7 +2156,9 @@ Gjerder i forbindelse med anleggsomr&#229;der og str&#248;mgjerder skal ikke reg
 
 Gjerder/rekkverk p&#229; bruer langs jernbane skal registreres, og tildeles medium L. Gjerdetype Annet gjerde brukes.
 
-Fortrinnsvis skal topp gjerde registreres, men der dette er vanskelig kan h&#248;yde for gjerdet registreres ved terrengniv&#229; (HREF FOT). 
+Fortrinnsvis skal topp gjerde registreres, men der dette er vanskelig kan h&#248;yde for gjerdet registreres ved terrengniv&#229; (HREF fot). H&#248;yde p&#229; gjerdet (h&#248;ydeOverBakken) registreres kun der dette bestilles spesielt.
+
+ 
  
  
 '''
@@ -2318,6 +2320,11 @@ image::figurer/gjerde_bru_bane.png[link=figurer/gjerde_bru_bane.png, Alt="Illust
 |..MEDIUM
 |[1..1]
  
+|høydeOverBakken
+|Real
+|..HOB
+|[0..1]
+ 
 |===
 [discrete]
 ==== Presiseringer til beskrivelsen av kodelistekoder
@@ -2344,6 +2351,11 @@ image::figurer/steingjerde.png[link=figurer/steingjerde.png, Alt="Eksempel på s
 .Illustrasjon av Reingjerde
 image::figurer/reingjerde.png[link=figurer/reingjerde.png, Alt="Illustrasjon av Reingjerde"]
  
+ 
+ 
+[discrete]
+===== Gjerdetype - Kodenavn: LufthavnGjerde
+*Definisjon:* Lufthavngjerde skal konstrueres sammenhengende, ogs&#229; mellom porter, med unntak gjennom bygninger/anlegg. Lufthavngjerdet kan v&#230;re brutt ved stup og vann.     Det er normalt kun ett lufthavngjerde rundt flysiden p&#229; lufthavnen.     Lufthavngjerde skal registreres med h&#248;ydereferanse fot og en verdi for h&#248;ydeOverBakken.    Gjerdetype lufthavn skal kun p&#229;f&#248;res etter spesiell avtale for hvert prosjekt. Ellers brukes gjerdetype Annet gjerde.
  
  
 <<<
@@ -7946,4 +7958,3 @@ Beskrivende linjer inne p&#229; sluseanlegget kan registreres som BeskrivendeHje
  
 |===
 // End of Registreringsinstruks UML-model
-
